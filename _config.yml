@@ -1,5 +1,5 @@
-name: Linear
-description: Linear template for Jekyll
+name: GeosLearn
+description: UoS materials by Tristan Salles
 gems: [jekyll-paginate]
 
 paginate: 10
