@@ -1,6 +1,6 @@
 ---
-title: Lorem Ipsum Dolor Sit Amet
-featured: images/pic01.jpg
+title: Ocean data query
+featured: images/pic1.jpg
 layout: post
 ---
 

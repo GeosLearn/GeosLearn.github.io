@@ -1,6 +1,6 @@
 ---
-title: Ullamco Laboris minim veniam
-featured: images/pic03.jpg
+title: Tectonic geomorphology
+featured: images/pic3.jpg
 layout: post
 ---
 
