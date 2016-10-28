@@ -1,6 +1,6 @@
 ---
 title: Coastal evolution modelling
-featured: images/pic2.jpg
+featured: images/pic2.png
 layout: post
 ---
 
