@@ -24,6 +24,7 @@ As an example, we will simulate the impact of storms on 2D beach profiles, explo
     <span class="byline"><font color = "#000000">Lecture Material</font></span>
   </header>
   <p>TODO</p>
+  <p><a href="http://geoslearn.github.io/OceanData/#">**lecture on coastal evolution**</a></p>
 </section>
 
 <section>
