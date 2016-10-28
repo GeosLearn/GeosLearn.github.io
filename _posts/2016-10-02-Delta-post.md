@@ -9,7 +9,7 @@ modify and disperse fluvial clastic deposits. The complexity of environmental se
 sequences that can form within the delta facies.
 
 **Landsat satellites images of the Wax Lake Outlet and Atchafalaya deltas from 1984 to 2014 (USGS-NASA).**
-<iframe width="780" height="440" src="http://svs.gsfc.nasa.gov/vis/a010000/a011700/a011759/EO-Delta-540-MASTER_high.mp4" frameborder="0" allowfullscreen></iframe>
+<iframe width="780" height="440" src="/assets/images/deltas.mp4" frameborder="0" allowfullscreen></iframe>
 
 In this module, you will learn how to interpret deltaic stratigraphy based on **systems tract**, **shoreline trajectory** and **accomodation vs sediment supply** analysis. Using [**Badlands**](https://github.com/badlands-model/pyBadlands/wiki), you will
 quantitatively assess the role of sea-level fluctutations and subsidence rates on deltaic geometry evolution.
