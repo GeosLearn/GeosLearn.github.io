@@ -4,8 +4,15 @@ featured: images/pic5.jpg
 layout: post
 ---
 
-<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+Deltaic depositional facies result from interacting dynamics processes (wave energy, tidal regime, currents, climate, tectonic), which
+modify and disperse fluvial clastic deposits. The complexity of environmental settings under which deltas exist results in a variety of vertical
+sequences that can form within the delta facies.
+
+**Landsat satellites images of the Wax Lake Outlet and Atchafalaya deltas from 1984 to 2014 (USGS-NASA).**
+<iframe width="780" height="440" src="http://svs.gsfc.nasa.gov/vis/a010000/a011700/a011759/EO-Delta-540-MASTER_high.mp4" frameborder="0" allowfullscreen></iframe>
+
+In this module, you will learn how to interpret deltaic stratigraphy based on **systems tract**, **shoreline trajectory** and **accomodation vs sediment supply** analysis. Using [**Badlands**](https://github.com/badlands-model/pyBadlands/wiki), you will
+quantitatively assess the role of sea-level fluctutations and subsidence rates on deltaic geometry evolution.
 
 <section>
   <header>

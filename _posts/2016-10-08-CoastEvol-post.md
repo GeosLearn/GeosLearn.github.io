@@ -4,8 +4,9 @@ featured: images/pic2.jpg
 layout: post
 ---
 
-<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+In this module, we will build upon the theory that were developed during the first parts of your UoS using simple numerical models. In particular we will look at medium to long-term coastal process evolution models. The aim is to give you some understanding on how to set up and use numerical models for coastal projects as well as elaborate on the differences between these models.
+
+As an example, we will simulate the impact of storms on 2D beach profiles, explore the sensitivities of crenulated bay to wave condition and build models of longshore transport.
 
 <section>
   <header>

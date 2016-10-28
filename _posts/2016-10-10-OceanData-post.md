@@ -9,6 +9,13 @@ Access to quality data is essential to understand marine processes. Over the las
 Ocean scientists routinely perform data _crunching_ to understand a particular system and need to **access and query** extensive lists of data.
 Understanding how these data are stored, their origin and how to quickly retrieve particular information from them are what this module is all about!
 
+<div class="col-md-6">
+      <a href="http://earth.nullschool.net/about.html">earth</a> a visualization of global weather conditions forecast by supercomputers
+      updated every three hours!
+      <iframe id="weatherMap" style="width:100%; height:500px" src="https://earth.nullschool.net/#current/ocean/surface/currents/overlay=sea_surface_temp/orthographic=-226.48,-28.33,807"
+      frameborder="0" scrolling="no" allowfullscreen></iframe>
+</div>
+
 <section>
   <header>
     <span class="byline"><font color = "#000000">Preamble</font></span>
