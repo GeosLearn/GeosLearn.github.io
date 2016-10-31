@@ -25,13 +25,13 @@ As an example, we will simulate the impact of storms on 2D beach profiles, explo
   <header>
     <h1><font color = "#000000"><strong>Physical Models</strong></font></h1>
   </header>
-  <p><a href="http://geoslearn.github.io/physicalModel/#" target="_blank">HTML version</a></p>
+  <p><a href="http://geoslearn.github.io/physicalModel/#" target="_blank">HTML version</a> (works better with Chrome or Safari)</p>
   <p><a href="https://cloudstor.aarnet.edu.au/plus/index.php/s/KEz6Kt72sxvZNzc" target="_blank">PDF version</a></p>
 
   <header>
     <h1><font color = "#000000"><strong>Numerical Models</strong></font></h1>
   </header>
-  <p><a href="http://geoslearn.github.io/numericalModel/#" target="_blank">HTML version</a></p>
+  <p><a href="http://geoslearn.github.io/numericalModel/#" target="_blank">HTML version</a> (works better with Chrome or Safari)</p>
   <p><a href="https://cloudstor.aarnet.edu.au/plus/index.php/s/pefBV4Xx3pEU2QD" target="_blank">PDF version</a></p>
 
 </section>
