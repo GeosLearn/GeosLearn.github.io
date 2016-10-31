@@ -25,9 +25,11 @@ Understanding how these data are stored, their origin and how to quickly retriev
 
 <section>
   <header>
-    <span class="byline"><font color = "#000000">Lecture Material</font></span>
+    <span class="byline"><font color = "#000000">Lecture Materials</font></span>
   </header>
-  <p>TODO</p>
+  <p><a href="http://geoslearn.github.io/oceanData/#" target="_blank">HTML version</a> (works better with Chrome or Safari)</p>
+  <p><a href="https://cloudstor.aarnet.edu.au/plus/index.php/s/FkfAC6DWiA6K5Xs" target="_blank">PDF version</a></p>
+
 </section>
 
 <section>
