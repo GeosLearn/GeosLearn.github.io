@@ -50,12 +50,12 @@ Understanding how these data are stored, their origin and how to quickly retriev
   <header>
     <span class="byline"><font color = "#000000">Examples of ocean data providers</font></span>
   </header>
-  <p><strong>Australian marine and climate science data</strong></p>
+  <p><strong><a href="https://portal.aodn.org.au" target="_blank">Australian marine and climate science data</a></strong></p>
   <div class="col-md-6">
     <iframe style="width:100%; height:500px" src="https://portal.aodn.org.au" frameborder="0" scrolling="no" allowfullscreen>
     </iframe>  
   </div>
-  <p><strong>Ocean data from NASA</strong></p>
+  <p><strong><a href="https://earthdata.nasa.gov/" target="_blank">Ocean data from NASA</a></strong></p>
   <div class="col-md-6">
     <iframe style="width:100%; height:480px" src="https://earthdata.nasa.gov/discipline/ocean" frameborder="0" scrolling="no" allowfullscreen>
     </iframe>  
