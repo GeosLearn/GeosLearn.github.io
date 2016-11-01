@@ -34,7 +34,9 @@ Understanding how these data are stored, their origin and how to quickly retriev
   - A piece of <strong>data</strong> provides a basic description, typically numerical for our purposes, of a given reality. <br/>
   - Drawing on the collected data, <strong>information</strong> is obtained by organising and structuring data so as to derive meaning.<br/>
   - By understanding the meaning of information, we obtain <strong>knowledge</strong>.<br/>
-  <br/>
+  </p>
+  <iframe width="780" height="400" src="https://www.youtube.com/embed/7yTpv70gkGE?rel=0" frameborder="0" allowfullscreen></iframe>
+  <p>
   One of the great challenges for Ocean Data users is to understand where and how to find technologies that make it possible to evaluate, validate, verify, and rank information to help them in their jobs. This involves understanding how the ocean data providers are organised, the main standards, vocabularies and formats which are used by the community as well as the best approach for accessing and querying these information routinely.</p>
   <strong>Materials from the lecture:</strong>
   <table style="width:80%">
