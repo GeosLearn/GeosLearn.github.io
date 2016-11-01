@@ -15,7 +15,7 @@ Understanding how these data are stored, their origin and how to quickly retriev
   </header>
   <p>The information that is stored, processed, and exchanged, is at the heart of <strong>modern marine science</strong>. We will consider the Web's information systems that serve as entry points to information of all sorts. The most widespread examples of this kind of system are search engines like Google, which provides an index to billions of documents on the Web, and in a way allows us to think of the Web as a gigantic database. </p>
 
-  <p>The Web's information systems, just like centralised data management systems, are mediators between intelligent individuals with little desire to trouble themselves with programming details, and physical objects like discs or USB keys. In this module, we are interested in intelligent systems that can <strong>manage information, understand it and make it available to marine scientists</strong>.</p>
+  <p>The Web's information systems, just like centralised data management systems, are mediators between individuals with little desire to trouble themselves with programming details, and physical objects like discs or USB keys. In this module, we will be looking at data systems that can <strong>manage information, understand it and make it available to marine scientists</strong>.</p>
 
   <header>
     <span class="byline"><font color = "#000000">Lecture resources</font></span>
@@ -26,7 +26,7 @@ Understanding how these data are stored, their origin and how to quickly retriev
     <iframe id="weatherMap" style="width:100%; height:500px" src="https://earth.nullschool.net/#current/ocean/surface/currents/overlay=sea_surface_temp/orthographic=-226.48,-28.33,807"
     frameborder="0" scrolling="no" allowfullscreen></iframe>
   </div>
-  <p>Wave height measures taken every day by a buoy offshore Sydney are <strong>data</strong>. A graph showing the evolution of the significant wave height over time, at this given place, is <strong>information</strong>. The fact that the number of extreme storms increases on Australian'coast increases as a result of climate change is <strong>knowledge</strong>. These three notions are very closely linked.
+  <p>Wave height measures taken every day by a buoy offshore Sydney are <strong>data</strong>. A graph showing the evolution of the significant wave height over time, at a given place, is <strong>information</strong>. The fact that the number of extreme storms hitting Australian's coast increases as a result of climate change is <strong>knowledge</strong>. These three notions are very closely linked.
   <br/>
   <br/>
   Roughly speaking, here is how you should use them:
