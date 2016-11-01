@@ -88,12 +88,13 @@ As an example, we will simulate the impact of storms on 2D beach profiles, explo
   </header>
   <p><strong><a href="https://csdms.colorado.edu/wiki/Main_Page" target="_blank">Community Surface Dynamics Modeling System</a></strong> (CSDMS)</p>
   <div class="col-md-6">
-    <iframe style="width:100%; height:500px" src="https://csdms.colorado.edu/wiki/Main_Page" frameborder="0" scrolling="no" allowfullscreen>
+    <iframe style="width:100%; height:500px" src="https://csdms.colorado.edu/wiki/Main_Page" frameborder="0" scrolling="yes" allowfullscreen>
     </iframe>  
   </div>
+  <br/>
   <p><strong><a href="http://www.coastalhazards.org" target="_blank">Coastal Hazards Research Collaboratory</a></strong> (CHARCOL)</p>
   <div class="col-md-6">
-    <iframe style="width:100%; height:500px" src="http://www.coastalhazards.org" frameborder="0" scrolling="no" allowfullscreen>
+    <iframe style="width:100%; height:500px" src="http://www.coastalhazards.org" frameborder="0" scrolling="yes" allowfullscreen>
     </iframe>  
   </div>
 </section>

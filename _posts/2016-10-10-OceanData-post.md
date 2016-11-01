@@ -52,12 +52,12 @@ Understanding how these data are stored, their origin and how to quickly retriev
   </header>
   <p><strong><a href="https://portal.aodn.org.au" target="_blank">Australian marine and climate science data</a></strong></p>
   <div class="col-md-6">
-    <iframe style="width:100%; height:500px" src="https://portal.aodn.org.au" frameborder="0" scrolling="no" allowfullscreen>
+    <iframe style="width:100%; height:500px" src="https://portal.aodn.org.au" frameborder="0" scrolling="yes" allowfullscreen>
     </iframe>  
   </div>
   <p><strong><a href="https://earthdata.nasa.gov/" target="_blank">Ocean data from NASA</a></strong></p>
   <div class="col-md-6">
-    <iframe style="width:100%; height:480px" src="https://earthdata.nasa.gov/discipline/ocean" frameborder="0" scrolling="no" allowfullscreen>
+    <iframe style="width:100%; height:480px" src="https://earthdata.nasa.gov/discipline/ocean" frameborder="0" scrolling="yes" allowfullscreen>
     </iframe>  
   </div>
 </section>
