@@ -8,7 +8,7 @@ In this module, we will build upon the theory that were developed during the fir
 
 **Landsat satellites images of the Nauset-Monomoy barrier beach system between from 1984 to 2013 (USGS-NASA).**
 <div class="col-md-6">
-  <iframe style="width:100%; height:300px" src="/assets/images/coasts.mp4" frameborder="0" scrolling="yes" allowfullscreen>
+  <iframe style="width:100%; height:350px" src="/assets/images/coasts.mp4" frameborder="0" scrolling="yes" allowfullscreen>
   </iframe>  
 </div>
 
@@ -88,8 +88,31 @@ As an example, we will simulate the impact of storms on 2D beach profiles, explo
   <header>
     <span class="byline"><font color = "#000000">For the labs</font></span>
   </header>
-  <p>TODO
-</p>
+  <p>We will use <strong><a href="http://jupyter.org" target="_blank">Jupyter</a></strong>,  a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. To access the module materials we will download via Kitematic a  <strong><a href="https://www.docker.com/what-docker" target="_blank">Docker</a></strong> container called <strong>coastevol</strong>. Please follow the documentation provided <strong><a href="{{ site.prefix }}/LabDeploy.html">here</a></strong> on how to install the materials on your local computer or directly from the school computer labs.
+  The labs will be focused on 2 types of numerical models. <br/>
+  <br/>
+  <strong>One-line model</strong><br/>
+  First we will look at the <strong><a href="https://cove-model.github.io/Website/" target="_blank"> COastal Vector Evolution</a></strong> model (COVE) - a vector-based one-line coastal evolution model presented and used in a <strong><a href="http://onlinelibrary.wiley.com/doi/10.1002/2015JF003704/abstract" target="_blank">paper</a></strong> by Hurst et al. (2015). <br/>
+  The model's highlights include:<br/>
+  + Application at spatial scales of kms to tens of kms, over decadal to millennial timescales.<br/>
+  + Coastal change is driven by gradients in wave-generated alongshore sediment transport. <br/>
+  + Alongshore sediment transport driven by the height and angle of breaking waves.<br/>
+  + Retreat of cliffs governed by beach interaction (protection vs tools).
+  </p>
+
+  <div class="col-md-6" id="map" style="width:100%; height:400px"></div>
+  <script>
+    var map = L.map('map').setView([37.4848, -122.459], 8);
+    L.tileLayer('http://{s}.tile.stamen.com/terrain/{z}/{x}/{y}.jpg', {
+        maxZoom: 18,
+        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.'
+    }).addTo(map);
+    var marker_1 = L.marker([37.4848, -122.459]);
+    marker_1.bindPopup("Crenulate bay example: Half Moon Bay (CA)");
+    map.addLayer(marker_1)
+  </script>
+  
+  <p>Following the ideas proposed in Hurst et al. (2015), you will investigate the evolution of crenulate bays and explore coastal behavior and sensitivity under different climatic conditions.</p>
   <header>
     <span class="byline"><font color = "#000000">Coastal models repository</font></span>
   </header>

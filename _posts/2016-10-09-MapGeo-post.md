@@ -11,7 +11,7 @@ Australia has an abundant and diverse range of energy resources. It has very lar
    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
    <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
 </head>
-<div id="map" style="width: 780px; height: 380px"></div>
+<div class="col-md-6" id="map" style="width:100%; height:400px"></div>
 <script>
   var map = L.map('map').setView([-20.7353, 116.8458], 8);
   L.tileLayer('http://{s}.tile.stamen.com/terrain/{z}/{x}/{y}.jpg', {
