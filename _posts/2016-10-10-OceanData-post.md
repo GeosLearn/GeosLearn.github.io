@@ -35,7 +35,9 @@ Understanding how these data are stored, their origin and how to quickly retriev
   - Drawing on the collected data, <strong>information</strong> is obtained by organising and structuring data so as to derive meaning.<br/>
   - By understanding the meaning of information, we obtain <strong>knowledge</strong>.<br/>
   </p>
-  <iframe width="780" height="400" src="https://www.youtube.com/embed/7yTpv70gkGE?rel=0" frameborder="0" allowfullscreen></iframe>
+  <div class="col-md-6">
+  <iframe style="width:100%; height:400px" src="https://www.youtube.com/embed/7yTpv70gkGE?rel=0" frameborder="0" allowfullscreen></iframe>
+  </div>
   <p>
   One of the great challenges for Ocean Data users is to understand where and how to find technologies that make it possible to evaluate, validate, verify, and rank information to help them in their jobs. This involves understanding how the ocean data providers are organised, the main standards, vocabularies and formats which are used by the community as well as the best approach for accessing and querying these information routinely.</p>
   <strong>Materials from the lecture:</strong>
@@ -48,7 +50,24 @@ Understanding how these data are stored, their origin and how to quickly retriev
   <header>
     <span class="byline"><font color = "#000000">For the labs</font></span>
   </header>
-  <p>TODO</p>
+  <p>
+  We will use <strong><a href="http://jupyter.org" target="_blank">Jupyter</a></strong>,  a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. To access the module materials we will download via Kitematic a  <strong><a href="https://www.docker.com/what-docker" target="_blank">Docker</a></strong> container called <strong>oceandata</strong>. Please follow the documentation provided <strong><a href="{{ site.prefix }}/LabDeploy.html">here</a></strong> on how to install the materials on your local computer or directly from the school computer labs.<br/>
+  <br/>
+  A series of examples based on <strong>ipython notebooks</strong> is proposed to give you an introduction to marine data querying. There are several advantages of using python as a general data analysis language and the notebook environment is a versatile tool that is designed to be intractive, user-friendly, open-source and sharable. While there are many libraries available to perform data analysis in Python, here's a few to get you started:
+  <br/>
+  + <strong><a href="www.numpy.org/" target="_blank">NumPy</a></strong>  is fundamental for scientific computing with Python. It supports large, multi-dimensional arrays and matrices and includes an assortment of high-level mathematical functions to operate on these arrays.<br/>
+  + <strong><a href="http://www.sympygamma.com" target="_blank">SciPy</a></strong>  works with NumPy arrays and provides efficient routines for numerical integration and optimization.<br/>
+  + <strong><a href="http://pandas.pydata.org" target="_blank">Pandas</a></strong>, also built on top of NumPy, offers data structures and operations for manipulating numerical tables and time series.<br/>
+  + <strong><a href="www.numpy.org/" target="_blank">Matplotlib</a></strong> is a 2D plotting library that can generate such data visualizations as histograms, power spectra, bar charts, and scatterplots with just a few lines of code.<br/>
+  + Built on NumPy, SciPy, and Matplotlib, <strong><a href="http://scikit-learn.org/stable/" target="_blank">Scikit-learn</a></strong> is a machine learning library that implements classification, regression, and clustering algorithms including support vector machines, logistic regression, naive Bayes, random forests, and gradient boosting. <br/>
+  For a longer list of Python libraries useful for data science applications follow this <a href="https://github.com/rasbt/pattern_classification/blob/master/resources/python_data_libraries.md" target="_blank">link</a>.<br/>
+  <br/>
+  When the <strong>oceandata</strong> container has been installed via Kitematic and a volume has been attached to the container, you will be ready to start opening the ipython notebooks. The following notebooks are available:<br/>
+  + Using <strong><a href="http://matplotlib.org/basemap" target="_blank">Basemap</a></strong> library to map Global Ocean Salinity from NASA via THREDDS data server. <br/>
+  + Analysing off-shore sydney wave buoy data from Australian <strong><a href="http://www.imos.org.au" target="_blank">Integrated Marine Observing System</a></strong> (IMOS) and historical <strong><a href="http://polar.ncep.noaa.gov/waves/wavewatch/" target="_blank">NOAA WW3</a></strong> model predictions for different locations. <br/>
+  + Extract Ocean Radar dataset for Turquoise Bay from <strong><a href="http://www.imos.org.au" target="_blank">IMOS</a></strong> and plot them on a map.<br/>
+  + Access via THREDDS protocol NetCDF forecast prediction dataset for Chesapeake bay (US) from <strong><a href="http://fvcom.smast.umassd.edu/research_projects/NECOFS/model_system.html" target="_blank">FVCOM</a></strong> model, visualise it and extract relevant information. <br/>
+  </p>
   <header>
     <span class="byline"><font color = "#000000">Examples of ocean data providers</font></span>
   </header>
