@@ -24,13 +24,12 @@ layout: default
 				    <iframe style="width:100%; height:480px" src="https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/" frameborder="0" scrolling="yes" allowfullscreen>
 				    </iframe>
 				  </div>
-					<p><br/>Example of IPython interactive demo from <strong><a href="http://www.nature.com/news/ipython-interactive-demo-7.21492#" target="_blank">Nature Journal</a></strong><br/></p>
 					<!--div class="col-md-6">
 				    <iframe style="width:100%; height:580px" src="http://www.nature.com/news/ipython-interactive-demo-7.21492#" frameborder="0" scrolling="yes" allowfullscreen>
 				    </iframe>
 				  </div-->
 					<p>
-					Other live demo hosted by Rackspace on how to use Jupyter App can be found <strong><a href="https://try.jupyter.org" target="_blank">here</a></strong>.
+					Live demo hosted by Rackspace on how to use Jupyter App with different programming languages can be found <strong><a href="https://try.jupyter.org" target="_blank">here</a></strong>.
 					</p>
 
 					<header>
@@ -95,20 +94,22 @@ layout: default
 					<header>
 						<span class="byline"><font color = "#000000">Setting up the lab container</font></span>
 					</header>
-					<p>Either you have just made a local installation of Docker or you are using the computers from the labs room, you will now need to
-						open Docker.
+					<p>Now that the container has been installed on the computer, we will link the container to a specific folder also called a
+						<strong>volume</strong> on the machine. <br/>
+						This operation allows you to use native text editors on your local environment and protects any work you do from loss
+						– deleting a Docker container will not delete the files in mounted volumes (unlike files hosted locally by the container itself).<br/>
+						To set up the volume, click on each of the "wheel" icon as shown in the figure below.
 					</p>
 					<div style="text-align: center;">
 						<img src="{{ site.prefix }}/assets/images/volume.png" alt="open Docker app" style="width:90%; height:70%" align="middle">
 					</div>
-					<p>Either you have just made a local installation of Docker or you are using the computers from the labs room, you will now need to
-						open Docker.
+					<p> From the pop-up window (see figure below) look for the directory where you want the local data to be store on your local development machine.
+						It will also allow you to easely create, modify or delete files/directory directly from your machine.
 					</p>
 					<div style="text-align: center;">
 						<img src="{{ site.prefix }}/assets/images/volume2.png" alt="open Docker app" style="width:90%; height:70%" align="middle">
 					</div>
-					<p>Either you have just made a local installation of Docker or you are using the computers from the labs room, you will now need to
-						open Docker.
+					<p>You are now ready to open the Jupyter environment using the icon shown below. It will open the lab notebooks in a web browser.
 					</p>
 					<div style="text-align: center;">
 						<img src="{{ site.prefix }}/assets/images/openlab.png" alt="open Docker app" style="width:90%; height:70%" align="middle">
@@ -117,18 +118,32 @@ layout: default
 					<header>
 						<span class="byline"><font color = "#000000">Running lab's notebooks</font></span>
 					</header>
-					<p>Either you have just made a local installation of Docker or you are using the computers from the labs room, you will now need to
-						open Docker.
+					<p>The Jupyter Notebook is officially supported for the following browsers: <br/>
+						+ Chrome<br/>
+						+ Safari<br/>
+						+ Firefox<br/>
+						The is mainly due to the notebook’s usage of WebSockets and the flexible box model. From experience, Firefox seems to give better
+						integration that Safari.<br/>
+						When you launch Jupyter notebook the first page that you encounter is the <strong>Notebook Dashboard</strong>. This page is your
+						"home" directory and shows a file tree view of the folders and files installed on the container (as shown in figure below). The <strong>volume</strong> is the folder
+						connected to your local architecture and the place where you will store your lab outputs to prevent any lost.
 					</p>
 					<div style="text-align: center;">
 						<img src="{{ site.prefix }}/assets/images/tree.png" alt="open Docker app" style="width:90%; height:70%" align="middle">
 					</div>
-					<p>Either you have just made a local installation of Docker or you are using the computers from the labs room, you will now need to
-						open Docker.
+					<p>Once you’ve selected a Notebook file (<strong>.ipynb</strong> extension), the Notebook will open in the <strong>Notebook Editor</strong>.
 					</p>
 					<div style="text-align: center;">
 						<img src="{{ site.prefix }}/assets/images/exnotebook.png" alt="open Docker app" style="width:90%; height:70%" align="middle">
 					</div>
+					<p>The notebook consists of a sequence of cells (see above figure). A cell is a multiline text input field,
+						and its contents can be executed by using Shift-Enter, or by clicking either the "Play" button the toolbar, or
+						Cell | Run in the menu bar. <br/>
+						The execution behavior of a cell is determined the cell's type. There are four types of cells: <strong>code cells</strong>,
+						<strong>markdown cells</strong>, <strong>raw cells</strong> and <strong>heading cells</strong>. Every cell starts off being
+						a code cell, but its type can be changed by using a drop-down on the toolbar (which will be "Code", initially).
+						For more information on the different things you can do in a notebook, see the collection of examples.<br/>
+					<br/>Examples of IPython interactive demo from <strong><a href="http://www.nature.com/news/ipython-interactive-demo-7.21492#" target="_blank">Nature Journal</a></strong><br/></p>
 
 				</section>
 				</div>
