@@ -24,9 +24,15 @@ sedimentary geology will be addressed.
 
 <section>
   <header>
-    <span class="byline"><font color = "#000000">Lecture Material</font></span>
+    <span class="byline"><font color = "#000000">Lecture resources</font></span>
   </header>
-  <p>TODO</p>
+  <strong>Materials for sedimentary basin filling overview:</strong>
+  <table style="width:80%">
+    <tr>
+      <th><strong><a href="http://geoslearn.github.io/SedBasin/#" target="_blank">HTML version</a></strong> (for Chrome or Safari)</th>
+      <th><strong><a href="https://cloudstor.aarnet.edu.au/plus/index.php/s/Vkq6q9LN1RIT6Xb" target="_blank">PDF version</a></strong></th>
+    </tr>
+  </table>
 </section>
 
 <section>
