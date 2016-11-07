@@ -1,5 +1,5 @@
 ---
-title: Basin formation
+title: Sedimentary basins
 featured: images/pic6.jpg
 layout: post
 ---
