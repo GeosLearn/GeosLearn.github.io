@@ -60,17 +60,14 @@ sedimentary geology will be addressed.
 
 
   <strong>Gulf of Mexico intra-slope minibasins:</strong>
-  <div style="text-align: center;">
-  <img src="https://hinderedsettling.files.wordpress.com/2015/12/movie_9_static_fill_and_spill.gif?w=1120" alt="static fill and spill" style="width:80%; height:48%" align="middle">
-  </div>
   <p>
   In this lecture, we will discuss this classification and present results of
   numerical models developed within the EarthByte Group showing the formation and
   evolution of several types of these sedimentary basins.
   (<strong><a href="https://www.researchgate.net/publication/276907156_Stratigraphic_evolution_of_intraslope_minibasins_Insights_from_surface-based_model" target="_blank">Sylvester et al. 2015</a></strong>)
-  <p/>
+  </p>
   <div style="text-align: center;">
-  <img src="/assets/images/GOMbasin.png" alt="GAB basin" style="width:80%; height:48%" align="middle">
+  <img src="https://hinderedsettling.files.wordpress.com/2015/12/movie_9_static_fill_and_spill.gif?w=1120" alt="static fill and spill" style="width:80%; height:48%" align="middle">
   </div>
   <p>Bathymetric map of the central part of the Gulf of Mexico continental slope. Data from the global multi-resolution topography synthesis (from Ryan et al., 2009 and modified by Sylvester et al., 2015)</p>
 
