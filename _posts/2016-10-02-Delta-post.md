@@ -42,9 +42,13 @@ sequences that can form within the delta facies.
   <p>TODO</p>
   <table style="width:80%">
     <tr>
-      <th><strong><a href="http://geoslearn.github.io/DeltaMod/#" target="_blank">HTML version</a></strong> (for Chrome or Safari)</th>
+      <th><strong><a href="http://geoslearn.github.io/DeltaMod/#" target="_blank">Part 1 HTML version</a></strong> (for Chrome or Safari)</th>
       <th><strong><a href="https://cloudstor.aarnet.edu.au/plus/index.php/s/XzVAf2SHkCciSxM" target="_blank">PDF version</a></strong></th>
     </tr>
+      <tr>
+        <th><strong><a href="http://geoslearn.github.io/DeltaMod2/#" target="_blank">Part 2 HTML version</a></strong> (for Chrome or Safari)</th>
+        <th></th>
+      </tr>
   </table>
 
 
