@@ -1,5 +1,5 @@
 ---
-title: Mapping resources
+title: Badlands workshop
 featured: images/pic4.jpg
 layout: post
 ---

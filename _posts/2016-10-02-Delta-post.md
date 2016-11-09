@@ -8,11 +8,18 @@ Deltaic depositional facies result from interacting dynamics processes (wave ene
 modify and disperse fluvial clastic deposits. The complexity of environmental settings under which deltas exist results in a variety of vertical
 sequences that can form within the delta facies.
 
-**Landsat satellites images of the Wax Lake Outlet and Atchafalaya deltas from 1984 to 2014 (USGS-NASA).**
-<iframe width="780" height="440" src="/assets/images/deltas.mp4" frameborder="0" allowfullscreen></iframe>
-
-In this module, you will learn how to interpret deltaic stratigraphy based on **systems tract**, **shoreline trajectory** and **accomodation vs sediment supply** analysis. Using [**Badlands**](https://github.com/badlands-model/pyBadlands/wiki), you will
-quantitatively assess the role of sea-level fluctutations and subsidence rates on deltaic geometry evolution.
+<section>
+  <p><strong>Landsat satellites images</strong> of the Wax Lake Outlet and Atchafalaya deltas from 1984 to 2014 (USGS-NASA).
+  </p>
+  <div class="col-md-6" style="text-align: center;">
+    <iframe style="width:80%; height:400px" src="/assets/images/deltas.mp4" frameborder="0" scrolling="yes" allowfullscreen>
+    </iframe>  
+  </div>
+  <p>
+  In this module, you will learn how to interpret deltaic stratigraphy based on <strong>systems tract</strong>, <strong>shoreline trajectory</strong> and <strong>accommodation vs sediment supply</strong> analysis. Using <strong><a href="https://github.com/badlands-model/pyBadlands/wiki" target="_blank">Badlands</a></strong>, you will
+  quantitatively assess the role of sea-level fluctuations and subsidence rates on deltaic geometry evolution.
+  </p>
+</section>
 
 <section>
   <header>
@@ -32,6 +39,17 @@ quantitatively assess the role of sea-level fluctutations and subsidence rates o
       <th><strong><a href="https://cloudstor.aarnet.edu.au/plus/index.php/s/WiYlW5OQ4I9fc67" target="_blank">PDF version</a></strong></th>
     </tr>
   </table>
+  <p>TODO</p>
+  <table style="width:80%">
+    <tr>
+      <th><strong><a href="http://geoslearn.github.io/DeltaMod/#" target="_blank">HTML version</a></strong> (for Chrome or Safari)</th>
+      <th><strong><a href="https://cloudstor.aarnet.edu.au/plus/index.php/s/XzVAf2SHkCciSxM" target="_blank">PDF version</a></strong></th>
+    </tr>
+  </table>
+
+
+
+
 </section>
 
 <section>

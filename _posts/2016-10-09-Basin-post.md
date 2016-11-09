@@ -43,7 +43,7 @@ sedimentary geology will be addressed.
   <strong>Sedimentary basin classification:</strong>
   <p>About 80% of the sedimentary basins on Earth have formed by extension of the plates (often termed lithospheric extension). Most of the remaining 20% of basins were formed by flexure of the plates beneath various forms of loading. Pull-apart or strike-slip basins are relatively small and form in association with bends in strike-slip faults, such as the San Andreas Fault or the North Anatolian Fault. Only a very small number of basins still defy explanation, although we suspect that at least some of these have a thermal origin.</p>
   <div class="col-md-6" style="text-align: center;">
-    <iframe style="width:80%; height:400px" src="//www.youtube.com/embed/W6p_5d5EvjM?rel=0" frameborder="0" scrolling="yes" allowfullscreen>
+    <iframe style="width:80%; height:50%" src="//www.youtube.com/embed/W6p_5d5EvjM?rel=0" frameborder="0" scrolling="yes" allowfullscreen>
     </iframe>  
   </div>
   <p>In this lecture, we will discuss this classification and present results of
