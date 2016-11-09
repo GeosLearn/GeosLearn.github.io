@@ -9,11 +9,11 @@ modify and disperse fluvial clastic deposits. The complexity of environmental se
 sequences that can form within the delta facies.
 
 <section>
-  <p><strong>Landsat satellites images</strong> of the Wax Lake Outlet and Atchafalaya deltas from 1984 to 2014 (USGS-NASA).
-  </p>
   <div class="col-md-6" style="text-align: center;">
-    <iframe style="width:80%; height:400px" src="/assets/images/deltas.mp4" frameborder="0" scrolling="yes" allowfullscreen>
-    </iframe>  
+    <iframe style="width:80%; height:350px" src="/assets/images/deltas.mp4" frameborder="0" scrolling="yes" allowfullscreen>
+    </iframe>
+      <p><strong>Landsat satellites images</strong> of the Wax Lake Outlet and Atchafalaya deltas from 1984 to 2014 (USGS-NASA).
+      </p>
   </div>
   <p>
   In this module, you will learn how to interpret deltaic stratigraphy based on <strong>systems tract</strong>, <strong>shoreline trajectory</strong> and <strong>accommodation vs sediment supply</strong> analysis. Using <strong><a href="https://github.com/badlands-model/pyBadlands/wiki" target="_blank">Badlands</a></strong>, you will
@@ -25,13 +25,22 @@ sequences that can form within the delta facies.
   <header>
     <span class="byline"><font color = "#000000">Preamble</font></span>
   </header>
-  <p>TODO</p>
+  <div style="text-align: center;">
+  <img src="/assets/images/delta.png" alt="shallow-water depositional systems" style="width:80%; height:48%" align="middle">
+  <p>Range of common shallow-water depositional systems in a coastal classification based on ratio of wave power to tidal power (from
+    <strong><a href="  https://www.researchgate.net/publication/260083189_Major_Advances_in_siliciclastic_sedimentary_geology_1960-2012_Geological_Society_of_America_Special_Paper_500_2013" target="_blank">Steel & Milliken 2013</a></strong>)</p>
+  </div>
 </section>
 
 <section>
   <header>
     <span class="byline"><font color = "#000000">Lecture resources</font></span>
   </header>
+  <strong>Overview of deltaic systems and classification</strong>
+  <div class="col-md-6" style="text-align: center;">
+    <iframe style="width:80%; height:400px" src="//www.youtube.com/embed/A47ythEcz74?rel=0" frameborder="0" scrolling="yes" allowfullscreen>
+    </iframe>  
+  </div>
   <p>TODO</p>
   <table style="width:80%">
     <tr>
@@ -39,7 +48,14 @@ sequences that can form within the delta facies.
       <th><strong><a href="https://cloudstor.aarnet.edu.au/plus/index.php/s/WiYlW5OQ4I9fc67" target="_blank">PDF version</a></strong></th>
     </tr>
   </table>
+  <br/>
+  <strong>Quantitative analysis of deltaic stratigraphy</strong>
+  <div style="text-align: center;">
+  <img src="/assets/images/strat.png" alt="shoreline trajectory" style="width:90%; height:48%" align="middle">
+  <p><strong>Shoreline trajectory analysis</strong> obtained from Badlands model.</p>
+  </div>
   <p>TODO</p>
+
   <table style="width:80%">
     <tr>
       <th><strong><a href="http://geoslearn.github.io/DeltaMod/#" target="_blank">Part 1 HTML version</a></strong> (for Chrome or Safari)</th>
@@ -51,9 +67,6 @@ sequences that can form within the delta facies.
       </tr>
   </table>
 
-
-
-
 </section>
 
 <section>
@@ -62,6 +75,10 @@ sequences that can form within the delta facies.
   </header>
   <p>We will use <strong><a href="http://jupyter.org" target="_blank">Jupyter</a></strong>,  a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. To access the module materials we will download via Kitematic a  <strong><a href="https://www.docker.com/what-docker" target="_blank">Docker</a></strong> container called <strong>todo</strong>. Please follow the documentation provided <strong><a href="{{ site.prefix }}/LabDeploy.html">here</a></strong> on how to install the materials on your local computer or directly from the school computer labs.<br/>
   </p>
+  <div class="col-md-6" style="text-align: center;">
+    <iframe style="width:80%; height:420px" src="//www.youtube.com/embed/nX0EDM2-oTc?rel=0" frameborder="0" scrolling="yes" allowfullscreen>
+    </iframe>  
+  </div>
 </section>
 
 <section>

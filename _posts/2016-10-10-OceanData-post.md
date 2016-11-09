@@ -20,7 +20,7 @@ Understanding how these data are stored, their origin and how to quickly retriev
   <header>
     <span class="byline"><font color = "#000000">Lecture resources</font></span>
   </header>
-  <div class="col-md-6">
+  <div class="col-md-6" style="text-align: center;">
     <a href="http://earth.nullschool.net/about.html">earth</a> a visualization of global weather conditions forecast by supercomputers
         updated every three hours!
     <iframe id="weatherMap" style="width:100%; height:500px" src="https://earth.nullschool.net/#current/ocean/surface/currents/overlay=sea_surface_temp/orthographic=-226.48,-28.33,807"

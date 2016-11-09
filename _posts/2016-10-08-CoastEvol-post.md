@@ -6,10 +6,10 @@ layout: post
 
 In this module, we will build upon the theory that were developed during the first parts of your UoS using simple numerical models. In particular we will look at medium to long-term coastal process evolution models. The aim is to give you some understanding on how to set up and use numerical models for coastal projects as well as elaborate on the differences between these models.
 
-**Landsat satellites images of the Nauset-Monomoy barrier beach system between from 1984 to 2013 (USGS-NASA).**
 <div class="col-md-6" style="text-align: center;">
   <iframe style="width:80%; height:350px" src="/assets/images/coasts.mp4" frameborder="0" scrolling="yes" allowfullscreen>
   </iframe>  
+  <p><strong>Landsat satellites images</strong> of the Nauset-Monomoy barrier beach system between from 1984 to 2013 (USGS-NASA).</p>
 </div>
 
 As an example, we will simulate the impact of storms on 2D beach profiles, explore the sensitivities of crenulated bay to different wave conditions and use models of longshore transport.

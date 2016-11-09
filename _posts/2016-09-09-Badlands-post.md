@@ -4,10 +4,10 @@ featured: images/pic4.jpg
 layout: post
 ---
 
-Global distribution of mineral & oil resources and reserves are essential to understand not only the economic wealth of specific countries but also some of the major conflicts taking place in different regions of the World.
-Australia has an abundant and diverse range of energy resources. It has very large coal resources that underpin exports and low-cost domestic electricity production, more than one third of the world's known uranium resources, and substantial conventional gas and coal seam gas resources.
+This workshop aims to introduce those interested in landscape evolution and source to sink problems to a new open-source code: Badlands. Note that you do not have to be a seasoned modeller to participate. Geomorphologists, tectonicists and sedimentologists interested in testing conceptual models based on field observations are welcome!
 
-**Mapping these resources are essential skills for geoscientists. Using open-source libraries, you will learn how to map some of Australian offshore resources with Jupyter notebooks.**
+Background on Badlands:
+Basin and Landscape Dynamics (Badlands) is a landscape evolution model, built to simulate topography development at various space and time scales. The model is capable of simulating hillslope processes, fluvial incision ('modified' Stream Power Law, Transport Capacity Law both for sediment erosion/transport/deposition), spatially and temporally varying geodynamic (horizontal + vertical displacements) and climatic forces which can be used to simulate changes in base level, as well as effects of climate changes or sea-level fluctuations. In addition the model can solve elastic plate flexure problems.
 
 <section>
   <header>

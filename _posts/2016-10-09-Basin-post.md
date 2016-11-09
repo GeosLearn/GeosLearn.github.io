@@ -16,10 +16,11 @@ sedimentary geology will be addressed.
   <header>
     <span class="byline"><font color = "#000000">Preamble</font></span>
   </header>
+
+  <div style="text-align: center;">
   <p>
   Total Sediment Thickness of the World's Oceans and Marginal Seas (<strong><a href="https://www.ngdc.noaa.gov/mgg/sedthick/index.html" target="_blank">Whittaker  et al. 2013</a></strong>)
   </p>
-  <div style="text-align: center;">
   <img src="/assets/images/sedthick.png" alt="static fill and spill" style="width:90%; height:48%" align="middle">
   </div>
   <p>Sedimentary basins capture Earth's sea level, climate history, and the variation of the surface topography due to geodynamic, tectonic, and surface processes. They host a range of conventional and unconventional hydrocarbon resources of critical importance for the continued functioning of modern society. We increasingly rely on the same basins for oil, gas, geothermal energy, and water, and managing these competing uses requires much greater sophistication. For both exploration and resource extraction, geologists need to constrain the structure, evolution, and state of sedimentary basins. This requires a good understanding of the processes that form, deform, and fill these basins (source:
@@ -38,12 +39,12 @@ sedimentary geology will be addressed.
   </p>
   <div style="text-align: center;">
   <img src="/assets/images/GABbasin.png" alt="GAB basin" style="width:80%; height:48%" align="middle">
-  </div>
   <p>Recherche and Ceduna Sub-basins and Madura Shelf from <strong><a href="http://www.ga.gov.au/scientific-topics/energy/province-sedimentary-basin-geology/petroleum/offshore-southern-australia/bight" target="_blank">Geoscience Australia</a></strong></p>
+  </div>
   <strong>Sedimentary basin classification:</strong>
   <p>About 80% of the sedimentary basins on Earth have formed by extension of the plates (often termed lithospheric extension). Most of the remaining 20% of basins were formed by flexure of the plates beneath various forms of loading. Pull-apart or strike-slip basins are relatively small and form in association with bends in strike-slip faults, such as the San Andreas Fault or the North Anatolian Fault. Only a very small number of basins still defy explanation, although we suspect that at least some of these have a thermal origin.</p>
   <div class="col-md-6" style="text-align: center;">
-    <iframe style="width:80%; height:50%" src="//www.youtube.com/embed/W6p_5d5EvjM?rel=0" frameborder="0" scrolling="yes" allowfullscreen>
+    <iframe style="width:80%; height:440px" src="//www.youtube.com/embed/W6p_5d5EvjM?rel=0" frameborder="0" scrolling="yes" allowfullscreen>
     </iframe>  
   </div>
   <p>In this lecture, we will discuss this classification and present results of
@@ -65,9 +66,9 @@ sedimentary geology will be addressed.
    (<strong><a href="http://sp.lyellcollection.org/content/363/1/1.full" target="_blank">Archer et al. 2012</a></strong>) .
   </p>
   <div style="text-align: center;">
-  <img src="https://hinderedsettling.files.wordpress.com/2015/12/movie_9_static_fill_and_spill.gif?w=1120" alt="static fill and spill" style="width:80%; height:48%" align="middle">
-  </div>
+  <img src="https://hinderedsettling.files.wordpress.com/2015/12/movie_9_static_fill_and_spill.gif?w=1120" alt="static fill and spill" style="width:80%; height:400px" align="middle">
   <p>Static fill and spill model of minibasins sedimentation based on <strong><a href="https://www.researchgate.net/publication/276907156_Stratigraphic_evolution_of_intraslope_minibasins_Insights_from_surface-based_model" target="_blank">Sylvester et al. 2015</a></strong>.</p>
+  </div>
   <p>
   In this second lecture, we will look at how basins containing salt evolve and deform through time. The addition of halokinetic processes to the geodynamic history of a basin can lead to a plethora of architectures and geometries. The rich variety of resultant morphologies have considerable economic as well as academic interest. To illustrate the interplay between salt tectonics and sedimentation, we will discuss the evolution of intra-slope minibasins in the Gulf of Mexico and present a simple model proposed by
   <strong><a href="https://www.researchgate.net/publication/276907156_Stratigraphic_evolution_of_intraslope_minibasins_Insights_from_surface-based_model" target="_blank">Sylvester et al. 2015</a></strong>  which helps in the understanding of how stratal termination patterns relate to variations in sediment input and basin subsidence.
