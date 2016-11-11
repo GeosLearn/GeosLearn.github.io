@@ -124,11 +124,11 @@ Tectonic geomorphology is the study of the _interplay between tectonic and surfa
 
   <table style="width:100%">
     <tr>
-      <th><img src="/assets/images/book1.jpg" alt="book1" style="width:100%; height:100%" align="middle"></th>
+      <th><img src="/assets/images/book1.jpg" alt="book1" style="width:100%; height:80%" align="middle"></th>
         <th>Tectonic Geomorphology: <strong>Douglas W. Burbank, Robert S. Anderson</strong></th>
     </tr>
     <tr>
-    <th><img src="/assets/images/book2.jpg" alt="book2" style="width:100%; height:100%" align="middle"></th>
+    <th><img src="/assets/images/book2.jpg" alt="book2" style="width:100%; height:80%" align="middle"></th>
       <th>Geomorphology: The Mechanics and Chemistry of Landscapes, <strong>Robert S. Anderson, Suzanne P. Anderson</strong></th>
     </tr>
   </table>
