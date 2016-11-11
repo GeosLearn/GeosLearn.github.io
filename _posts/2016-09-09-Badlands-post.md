@@ -57,10 +57,10 @@ When you use Badlands, please cite the following papers and/or code release cita
   </div>
   <p> You will also need  <strong><a href="http://www.paraview.org/download/" target="_blank">Paraview</a></strong> data analysis and visualization application.
   </p>
-  <div class="col-md-6">
+  <!-- <div class="col-md-6">
     <iframe style="width:100%; height:480px" src="http://www.paraview.org/" frameborder="0" scrolling="yes" allowfullscreen>
     </iframe>
-  </div>
+  </div> -->
 </section>
 
 <section>
