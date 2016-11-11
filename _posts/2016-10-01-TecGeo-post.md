@@ -99,7 +99,21 @@ Tectonic geomorphology is the study of the _interplay between tectonic and surfa
   </header>
   <p>We will use <strong><a href="http://jupyter.org" target="_blank">Jupyter</a></strong>,  a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. To access the module materials we will download via Kitematic a  <strong><a href="https://www.docker.com/what-docker" target="_blank">Docker</a></strong> container called <strong>todo</strong>. Please follow the documentation provided <strong><a href="{{ site.prefix }}/LabDeploy.html">here</a></strong> on how to install the materials on your local computer or directly from the school computer labs.<br/>
   </p>
-  <p>TODO</p>
+
+  <strong>LAB 1: Role of climate change in drainage network reorganization</strong>
+  <p>This lab is an upscaled version of an experimental model from <strong><a href="https://www.google.com.au/url?sa=t&rct=j&q=&esrc=s&source=web&cd=8&ved=0ahUKEwjy5Mj3tp_QAhVIJZQKHc69AkEQFgg9MAc&url=http%3A%2F%2Fgeomorphology.sese.asu.edu%2FPapers%2FBonnetAndCrave2003.pdf&usg=AFQjCNFX91CI_BHtHcJBj-5hshDJH0ZAvg&sig2=3kIXha9LklRYRlLimeARig" target="_blank">Bonnet & Crave 2003</a></strong>.   simulate mountain range formation by upscaling the analogue experiment presented in previous section. The <strong><a href="https://www.youtube.com/watch?v=2ibm8I1GvT8" target="_blank">example</a></strong> illustrates long-term landscape evolution of an active mountain range. It shows how the constant valley spacing, achieved at steady state on both sides of the range, is progressively shifted due to a precipitation gradient applied across the mountain belt.<br/>
+  You will apply different climatic conditions and perform morphometrics and hydrometrics analysis using <strong><a href="https://github.com/badlands-model/pyBadlands/wiki">Badlands</a></strong> to quantitatively evaluate the catchment dynamics.</p>
+
+  <strong>LAB 2: Role of climate change in drainage network reorganization</strong>
+  <p>
+  Using <strong><a href="https://github.com/badlands-model/pyBadlands/wiki">Badlands</a></strong>, you will simulate the main processes responsible for the formation of the Grand Canyon. You will be able to modify the erosive power of the water flow, the hillslope coefficients and the climate/tectonic forces to see how different the Grand Canyon might have looked as it developed through different types of bedrock.<br/>
+  You will analyse the development and propagation of <strong>knickpoints</strong> within the main valleys for different initial conditions of fault activity.
+  </p>
+  <strong>LAB 3: Role of flexural isostasy in foreland basin formation</strong>
+  <p>
+  <strong>Flexure of the lithosphere</strong> is a frequently observed process by which loads bend the elastic outer shell of Earth. Using <strong><a href="https://github.com/badlands-model/pyBadlands/wiki">Badlands</a></strong>, you will simulate how variation in elastic thicknesses of the underlying plate is controlling basin formation and test the feedback mechanisms between surface processes, sedimentation and flexure with a set of simple models.<br/>
+  It will give you some insights on large-scale geometry of the sedimentary infill as related to orogen tectonics evolution of foreland basins.
+  </p>
 </section>
 
 <section>
@@ -108,13 +122,13 @@ Tectonic geomorphology is the study of the _interplay between tectonic and surfa
   </header>
   <p>Below is a list of two books available from the University library on the subject:</p>
 
-  <table style="width:80%">
+  <table style="width:100%">
     <tr>
-      <th><img src="http://media.wiley.com/product_data/coverImage300/50/EHEP0022/EHEP002250.jpg" alt="book1" style="width:70%; height:48%" align="middle"></th>
-      <th><img src="https://images-na.ssl-images-amazon.com/images/I/51R3j-vFFyL._AC_UL320_SR254,320_.jpg" alt="book2" style="width:50%; height:48%" align="middle"></th>
+      <th><img src="/assets/images/book1.jpg" alt="book1" style="width:100%; height:100%" align="middle"></th>
+        <th>Tectonic Geomorphology: <strong>Douglas W. Burbank, Robert S. Anderson</strong></th>
     </tr>
     <tr>
-      <th>Tectonic Geomorphology: <strong>Douglas W. Burbank, Robert S. Anderson</strong></th>
+    <th><img src="/assets/images/book2.jpg" alt="book2" style="width:100%; height:100%" align="middle"></th>
       <th>Geomorphology: The Mechanics and Chemistry of Landscapes, <strong>Robert S. Anderson, Suzanne P. Anderson</strong></th>
     </tr>
   </table>
