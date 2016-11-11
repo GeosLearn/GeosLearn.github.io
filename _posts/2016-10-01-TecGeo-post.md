@@ -28,7 +28,7 @@ Tectonic geomorphology is the study of the _interplay between tectonic and surfa
 
 <section>
   <header>
-    <span class="byline"><font color = "#000000">Lecture Material</font></span>
+    <span class="byline"><font color = "#000000">Lecture resources</font></span>
   </header>
   <strong>Geomorphological units & hillslope processes</strong>
 
