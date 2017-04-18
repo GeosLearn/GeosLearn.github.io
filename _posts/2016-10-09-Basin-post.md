@@ -93,7 +93,7 @@ sedimentary geology will be addressed.
 
   <table style="width:80%">
     <tr>
-      <th>Labs <strong><a href="https://github.com/tristan-salles/SedBasinLabs/tree/master/UoS" target="_blank">materials</a></th>
+      <th>Labs <strong><a href="https://github.com/tristan-salles/SedBasinLabs/tree/master/UoS" target="_blank">materials</a></strong></th>
       <th>Docker Container <strong><a href="https://hub.docker.com/r/tristansalles/usyd-sedbasinlabs/" target="_blank">usyd-sedbasinlabs</a></strong></th>
     </tr>
   </table>
