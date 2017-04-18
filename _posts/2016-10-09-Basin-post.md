@@ -90,6 +90,14 @@ sedimentary geology will be addressed.
   </header>
   <p>We will use <strong><a href="http://jupyter.org" target="_blank">Jupyter</a></strong>,  a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. To access the module materials we will download via Kitematic a  <strong><a href="https://www.docker.com/what-docker" target="_blank">Docker</a></strong> container called <strong>todo</strong>. Please follow the documentation provided <strong><a href="{{ site.prefix }}/LabDeploy.html">here</a></strong> on how to install the materials on your local computer or directly from the school computer labs.<br/>
   </p>
+
+  <table style="width:80%">
+    <tr>
+      <th><strong>Docker Container</strong></th>
+      <th><strong><a href="https://hub.docker.com/r/tristansalles/usyd-sedbasinlabs/" target="_blank">usyd-sedbasinlabs</a></strong></th>
+    </tr>
+  </table>
+
 </section>
 
 <section>
