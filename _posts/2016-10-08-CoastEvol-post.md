@@ -88,8 +88,8 @@ As an example, we will simulate the impact of storms on 2D beach profiles, explo
   <header>
     <span class="byline"><font color = "#000000">For the labs</font></span>
   </header>
-  <p>We will use <strong><a href="http://jupyter.org" target="_blank">Jupyter</a></strong>,  a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. To access the module materials we will download via Kitematic a  <strong><a href="https://www.docker.com/what-docker" target="_blank">Docker</a></strong> container called <strong>coastevol</strong>. Please follow the documentation provided <strong><a href="{{ site.prefix }}/LabDeploy.html">here</a></strong> on how to install the materials on your local computer or directly from the school computer labs.<br/>
-  When the <strong>coastevol</strong> container has been installed via Kitematic and a volume has been attached to the container, you will be ready to start opening the ipython notebooks.
+  <p>We will use <strong><a href="http://jupyter.org" target="_blank">Jupyter</a></strong>,  a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. To access the module materials we will download via Kitematic a  <strong><a href="https://www.docker.com/what-docker" target="_blank">Docker</a></strong> container called <strong>usyd-oceancoasts</strong>. Please follow the documentation provided <strong><a href="{{ site.prefix }}/LabDeploy.html">here</a></strong> on how to install the materials on your local computer or how to use it directly from the school computer labs.<br/>
+  When the <strong>usyd-oceancoasts</strong> container has been installed via Kitematic and a volume has been attached to the container, you will be ready to start opening the ipython notebooks.
   The labs will focus on 2 different numerical models. <br/>
   <br/>
   <strong>One-line model</strong><br/>
@@ -117,6 +117,15 @@ As an example, we will simulate the impact of storms on 2D beach profiles, explo
    <p>
    Because the model takes into account the variation in wave height in time (long known to surfers) it resolves the special long wave motions created by this variation. This so-called <strong>surf beat</strong> is responsible for most of the swash waves that actually hit the dune front or overtop it. <br/> Using this functionality we will explore 2D profiles evolution and XBeach outputs for different initial conditions.
   </p>
+
+
+  <table style="width:80%">
+    <tr>
+      <th>Labs <strong><a href="https://github.com/tristan-salles/oceancoast/tree/master/UoS/" target="_blank">materials</a></strong></th>
+      <th>Docker Container <strong><a href="https://hub.docker.com/r/tristansalles/usyd-oceancoasts/" target="_blank">usyd-oceancoasts</a></strong></th>
+    </tr>
+  </table>
+
   <header>
     <span class="byline"><font color = "#000000">Coastal models repository</font></span>
   </header>

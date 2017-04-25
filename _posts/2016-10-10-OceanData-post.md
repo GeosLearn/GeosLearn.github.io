@@ -51,7 +51,7 @@ Understanding how these data are stored, their origin and how to quickly retriev
     <span class="byline"><font color = "#000000">For the labs</font></span>
   </header>
   <p>
-  We will use <strong><a href="http://jupyter.org" target="_blank">Jupyter</a></strong>,  a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. To access the module materials we will download via Kitematic a  <strong><a href="https://www.docker.com/what-docker" target="_blank">Docker</a></strong> container called <strong>oceandata</strong>. Please follow the documentation provided <strong><a href="{{ site.prefix }}/LabDeploy.html">here</a></strong> on how to install the materials on your local computer or directly from the school computer labs.<br/>
+  We will use <strong><a href="http://jupyter.org" target="_blank">Jupyter</a></strong>,  a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. To access the module materials we will download via Kitematic a  <strong><a href="https://www.docker.com/what-docker" target="_blank">Docker</a></strong> container called <strong>usyd-oceancoasts</strong>. Please follow the documentation provided <strong><a href="{{ site.prefix }}/LabDeploy.html">here</a></strong> on how to install the materials on your local computer or directly from the school computer labs.<br/>
   <br/>
   A series of examples based on <strong>ipython notebooks</strong> is proposed to give you an introduction to marine data querying. There are several advantages of using python as a general data analysis language and the notebook environment is a versatile tool that is designed to be intractive, user-friendly, open-source and sharable. While there are many libraries available to perform data analysis in Python, here's a few to get you started:
   <br/>
@@ -68,6 +68,15 @@ Understanding how these data are stored, their origin and how to quickly retriev
   + Extract Ocean Radar dataset for Turquoise Bay from <strong><a href="http://www.imos.org.au" target="_blank">IMOS</a></strong> and plot them on a map.<br/>
   + Access via THREDDS protocol NetCDF forecast prediction dataset for Chesapeake bay (US) from <strong><a href="http://fvcom.smast.umassd.edu/research_projects/NECOFS/model_system.html" target="_blank">FVCOM</a></strong> model, visualise it and extract relevant information. <br/>
   </p>
+
+  <table style="width:80%">
+    <tr>
+      <th>Labs <strong><a href="https://github.com/tristan-salles/oceancoast/tree/master/UoS/dataQuery" target="_blank">materials</a></strong></th>
+      <th>Docker Container <strong><a href="https://hub.docker.com/r/tristansalles/usyd-oceancoasts/" target="_blank">usyd-oceancoasts</a></strong></th>
+    </tr>
+  </table>
+
+
   <header>
     <span class="byline"><font color = "#000000">Examples of ocean data providers</font></span>
   </header>
