@@ -47,9 +47,10 @@ sedimentary geology will be addressed.
     <iframe style="width:80%; height:440px" src="//www.youtube.com/embed/W6p_5d5EvjM?rel=0" frameborder="0" scrolling="yes" allowfullscreen>
     </iframe>  
   </div>
-  <p>In this lecture, we will discuss this classification and present results of
+  <p>In the first 2 lectures, we will discuss this classification and present results of
   numerical models developed within the EarthByte Group showing the formation and
   evolution of several types of these sedimentary basins.
+  Then we will make a quick refresh on sequence stratigraphy.
   </p>
 
   <table style="width:80%">
@@ -59,6 +60,13 @@ sedimentary geology will be addressed.
     </tr>
   </table>
 
+
+  <table style="width:80%">
+    <tr>
+      <th><strong><a href="https://geoslearn.github.io/parasequences/#" target="_blank">HTML version</a></strong> (for Chrome or Safari)</th>
+      <th><strong><a href="https://cloudstor.aarnet.edu.au/plus/index.php/s/gBZmZsUCPr78Fkm" target="_blank">PDF version</a></strong></th>
+    </tr>
+  </table>
 
   <strong>Gulf of Mexico intra-slope minibasins:</strong>
   <p>
@@ -70,7 +78,7 @@ sedimentary geology will be addressed.
   <p>Static fill and spill model of minibasins sedimentation based on <strong><a href="https://www.researchgate.net/publication/276907156_Stratigraphic_evolution_of_intraslope_minibasins_Insights_from_surface-based_model" target="_blank">Sylvester et al. 2015</a></strong>.</p>
   </div>
   <p>
-  In this second lecture, we will look at how basins containing salt evolve and deform through time. The addition of halokinetic processes to the geodynamic history of a basin can lead to a plethora of architectures and geometries. The rich variety of resultant morphologies have considerable economic as well as academic interest. To illustrate the interplay between salt tectonics and sedimentation, we will discuss the evolution of intra-slope minibasins in the Gulf of Mexico and present a simple model proposed by
+  In this third lecture, we will look at how basins containing salt evolve and deform through time. The addition of halokinetic processes to the geodynamic history of a basin can lead to a plethora of architectures and geometries. The rich variety of resultant morphologies have considerable economic as well as academic interest. To illustrate the interplay between salt tectonics and sedimentation, we will discuss the evolution of intra-slope minibasins in the Gulf of Mexico and present a simple model proposed by
   <strong><a href="https://www.researchgate.net/publication/276907156_Stratigraphic_evolution_of_intraslope_minibasins_Insights_from_surface-based_model" target="_blank">Sylvester et al. 2015</a></strong>  which helps in the understanding of how stratal termination patterns relate to variations in sediment input and basin subsidence.
   </p>
 
