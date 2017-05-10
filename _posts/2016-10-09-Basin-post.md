@@ -53,6 +53,7 @@ sedimentary geology will be addressed.
   Then we will make a quick refresh on sequence stratigraphy.
   </p>
 
+  _Lecture 1:_
   <table style="width:80%">
     <tr>
       <th><strong><a href="http://geoslearn.github.io/SedBasin/#" target="_blank">HTML version</a></strong> (for Chrome or Safari)</th>
@@ -60,7 +61,7 @@ sedimentary geology will be addressed.
     </tr>
   </table>
 
-
+  _Lecture 2:_
   <table style="width:80%">
     <tr>
       <th><strong><a href="https://geoslearn.github.io/parasequences/#" target="_blank">HTML version</a></strong> (for Chrome or Safari)</th>
@@ -83,6 +84,7 @@ sedimentary geology will be addressed.
   </p>
 
 
+  _Lecture 3:_
   <table style="width:80%">
     <tr>
       <th><strong><a href="http://geoslearn.github.io/SaltBasin/#" target="_blank">HTML version</a></strong> (for Chrome or Safari)</th>
