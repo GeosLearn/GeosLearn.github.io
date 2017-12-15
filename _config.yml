@@ -1,5 +1,5 @@
 name: GeosLearn
-description: UoS materials by Tristan Salles
+description: Test Tristan Salles
 gems: [jekyll-paginate]
 
 paginate: 10
