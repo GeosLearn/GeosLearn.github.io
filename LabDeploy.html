@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+
+
+
+	<head>
+		<title>GEOSLEARN by T. SALLES</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="logo"><a href="index.html">GeosLearn <span>by T. SALLES</span></a></div>
+				<a href="#menu">Menu</a>
+			</header>
+
+			<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="oceandata.html">Ocean Data</a></li>
+					<li><a href="sedbasin.html">Sedimentary basins</a></li>
+					<li><a href="delta.html">Deltaic systems</a></li>
+					<li><a href="coastevol.html">Coastal evolution</a></li>
+					<li><a href="tecgeo.html">Tectonic Geomorphology</a></li>
+					<li><a href="workshop.html">Badlands workshop</a></li>
+					<li><a href="LabDeploy.html">Lab deployment</a></li>
+				</ul>
+			</nav>
+
+			<!-- One -->
+			<section id="One" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Local lab deployment</p>
+						<h2>Docker images & Jupyter notebooks</h2>
+					</header>
+				</div>
+			</section>
+
+		<!-- Main -->
+			<section id="two" class="wrapper style2">
+				<div class="inner">
+					<div class="box">
+						<div class="content">
+
+							<header>
+								<h3>Setting up the Lab's environment</h3>
+								<p>Web-based application for coding</p>
+							</header>
+
+							<ul class="actions fit">
+								<li><a href="#docker" class="button fit">Docker</a></li>
+								<li><a href="#kitematic" class="button fit">Kitematic</a></li>
+								<li><a href="#lab" class="button fit">Lab Set-up</a></li>
+								<li><a href="#use" class="button fit">Notebook</a></li>
+							</ul>
+
+							<p>The labs proposed in the different modules are based on <em>Jupyter Notebook App</em>. This server-client application allows editing and running notebook documents via a web browser. It can be executed on a local desktop requiring no internet access or installed on a remote server and accessed through the internet.
+							</p>
+
+							<div class="col-md-6">
+						    <iframe style="width:100%; height:480px" src="https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/" frameborder="0" scrolling="yes" allowfullscreen>
+						    </iframe>
+						  </div>
+
+							<p>
+							Live demo hosted by Rackspace on how to use Jupyter App with different programming languages can be found <a href="https://try.jupyter.org" target="_blank">here</a>.
+							</p>
+
+							<header>
+						    <h4>Local installation of Docker</h4>
+						  </header>
+
+							<p>To create the labs the following applications were used:</p>
+							<div class="alt">
+								<ul>
+									<li> <u>IPython Notebooks</u> </li>
+								 	<li> <u>Github</u>: a hosting and versioning repository system </li>
+									<li> <u>Docker</u>: platform to build, ship, and run applications </li>
+								</ul>
+							</div>
+
+							<p>If you want to build the environment and work on the labs on your own computer you will only need to download the free <a href="http://www.docker.com/products/overview" target="_blank">Docker application</a> by clicking on the link and choosing the right one for your operating system.
+							</p>
+
+							<div style="text-align: center;">
+							  <img src="images/docker.png" alt="download the Docker app" style="width:100%; height:100%" align="middle">
+							</div>
+
+							<header>
+								<h4 id="docker">Starting and setting up Docker</h4>
+						  </header>
+
+							<p>Either you have just made a local installation of Docker or you are using the computers from the labs room, you will now need to open Docker. On Windows go to "<em>All programs</em>" and search for Docker in the list. If you are using a Mac open the "<em>Spotlight Search</em>" (arrow #1 in the figure below) and look for Docker (#2), open it (#3). Once Docker is open you will get the Docker App icon on the right hand side of the top bar (#4). On Windows it will appear as other Programs and a list of onglets will be visible from the	main menu directly.
+							</p>
+
+							<div style="text-align: center;">
+							  <img src="images/dockermac.png" alt="open Docker app" style="width:50%; height:70%" align="middle">
+							</div>
+
+							<p>It is possible to adjust the settings/preferences of Docker application by going in the "<em>Preferences</em>" menu (arrow #1 in the top figure). On Mac, a window will pop-up and you can allocate the number of processors (arrow #2) and memory (#3) that will be use by the software. This step is similar for Windows operating system.
+							</p>
+
+							<div style="text-align: center;">
+							  <img src="images/dockerpref.png" alt="setting Docker app" style="width:50%; height:30%" align="middle">
+							</div>
+
+							<p>You are now ready to fire-up <em>Kitematic</em> (arrow #4 in the top figure).</p>
+
+							<header>
+								<h4 id="kitematic">Kitematic</h4>
+							</header>
+
+							<p>Using Docker App as shown above or by looking for it directly in "All Programs" on Windows machine, open Kitematic. <br/>
+							<a href="https://www.docker.com/products/docker-kitematic" target="_blank">Kitematic</a> is an open source project built to simplify and streamline using Docker on a Mac or Windows PC. Kitematic automates the Docker installation and setup process and provides an intuitive graphical user interface (GUI) for running Docker containers.<br/>
+							During the opening process the application might <em>ask for a Docker Hub account and you will skip this step</em> as it is not required for our labs.<br/>
+							Once the initialisation process finishes (it could take several minutes the first time), a window will pop-up similar to the one below:
+							</p>
+
+							<div style="text-align: center;">
+								<img src="images/kitematic.png" alt="setting Docker app" style="width:90%; height:30%" align="middle">
+							</div>
+
+							<p>We will now start the Jupyter container containing the labs exercise by searching for the module name provided in the labs materials. To do so search of this container as shown in the figure below and click on the create button (arrow #2). When you will create the container for the first time, this operation will take several minutes.
+							</p>
+
+							<div style="text-align: center;">
+								<img src="images/kitematicmodule.png" alt="setting Docker app" style="width:90%; height:30%" align="middle">
+							</div>
+
+							<header>
+								<h4 id="lab">Setting up the lab container</h4>
+							</header>
+
+							<p>Now that the container has been installed on the computer, we will link the container to a specific folder also called a <em>volume</em> on the machine. <br/>
+							This operation allows you to use native text editors on your local environment and protects any work you do from loss
+							</p>
+
+							<div class="alt">
+								<ul>
+									<li> deleting a Docker container will not delete the files in mounted volumes (unlike files hosted locally by the container itself).</li>
+								</ul>
+							</div>
+
+							<p>To set up the volume, click on each of the "<em>wheel</em>" icon as shown in the figure below.</p>
+
+							<div style="text-align: center;">
+								<img src="images/volume.png" alt="open Docker app" style="width:90%; height:70%" align="middle">
+							</div>
+
+							<p> From the pop-up window (see figure below) look for the directory where you want the local data to be store on your local development machine. It will also allow you to easely create, modify or delete files/directory directly from your machine.
+							</p>
+
+							<div style="text-align: center;">
+								<img src="images/volume2.png" alt="open Docker app" style="width:90%; height:70%" align="middle">
+							</div>
+
+							<p>You are now ready to open the Jupyter environment using the icon shown below. It will open the lab notebooks in a web browser.
+							</p>
+
+							<div style="text-align: center;">
+								<img src="images/openlab.png" alt="open Docker app" style="width:90%; height:70%" align="middle">
+							</div>
+
+							<header>
+								<h4 id="use">Running lab's notebooks</h4>
+							</header>
+
+							<p>The Jupyter Notebook is officially supported for the following browsers: </p>
+							<div class="alt">
+								<ul>
+									<li> Chrome</li>
+									<li> Safari</li>
+									<li> Firefox</li>
+								<ul>
+							</div>
+							<p>
+								The is mainly due to the notebook’s usage of WebSockets and the flexible box model. From experience, Firefox seems to give better
+								integration that Safari.<br/>
+								When you launch Jupyter notebook the first page that you encounter is the <em>Notebook Dashboard</em>. This page is your
+								"home" directory and shows a file tree view of the folders and files installed on the container (as shown in figure below). The <em>volume</em> is the folder
+								connected to your local architecture and the place where you will store your lab outputs to prevent any lost.
+							</p>
+
+							<div style="text-align: center;">
+								<img src="images/tree.png" alt="open Docker app" style="width:90%; height:70%" align="middle">
+							</div>
+
+							<p>Once you’ve selected a Notebook file (<em>.ipynb</em> extension), the Notebook will open in the <em>Notebook Editor</em>.
+							</p>
+
+							<div style="text-align: center;">
+								<img src="images/exnotebook.png" alt="open Docker app" style="width:90%; height:70%" align="middle">
+							</div>
+
+							<p>The notebook consists of a sequence of cells (see above figure). A cell is a multiline text input field, and its contents can be executed by using Shift-Enter, or by clicking either the "<em>Play</em>" button the toolbar, or Cell | Run in the menu bar. <br/>
+							The execution behavior of a cell is determined the cell's type. There are four types of cells: <em>code cells</em>,	<em>markdown cells</em>, <em>raw cells</em> and <em>heading cells</em>. Every cell starts off being	a code cell, but its type can be changed by using a drop-down on the toolbar (which will be "<em>Code</em>", initially).
+							For more information on the different things you can do in a notebook, see the collection of examples.<br/>
+							<br/>Examples of IPython interactive demo from <a href="http://www.nature.com/news/ipython-interactive-demo-7.21492#" target="_blank">Nature Journal</a></p>
+						</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="container">
+							<ul class="icons">
+								<li><a href="https://twitter.com/salles_tristan" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.linkedin.com/in/sallestristan" class="icon fa-linkedin"><span class="label">linkedin</span></a></li>
+								<li><a href="https://github.com/tristan-salles" class="icon fa-github"><span class="label">Github</span></a></li>
+								<li><a href="http://sydney.edu.au/science/people/tristan.salles.php" class="icon fa-envelope-o"><span class="label">Profile</span></a></li>
+							</ul>
+						</div>
+						<div class="copyright">
+							&copy; T. Salles. All rights reserved.
+						</div>
+					</footer>
+
+				<!-- Scripts -->
+					<script src="assets/js/jquery.min.js"></script>
+					<script src="assets/js/jquery.scrollex.min.js"></script>
+					<script src="assets/js/skel.min.js"></script>
+					<script src="assets/js/util.js"></script>
+					<script src="assets/js/main.js"></script>
+
+			</body>
+		</html>
