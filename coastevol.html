@@ -47,391 +47,198 @@
 			<div id="main" class="container">
 
 				<!-- Elements -->
-					<h2 id="elements">Elements</h2>
 					<div class="row 200%">
 						<div class="6u 12u$(medium)">
 
 							<!-- Text stuff -->
-								<h3>Text</h3>
-								<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-								This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-								This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>.
-								Finally, this is a <a href="#">link</a>.</p>
+								<blockquote>In this module, we will build upon the theory that were developed during the first parts of your UoS using simple numerical models. In particular we will look at medium to long-term coastal process evolution models. The aim is to give you some understanding on how to set up and use numerical models for coastal projects as well as elaborate on the differences between these models.</blockquote>
+
+								<div class="col-md-6" style="text-align: center;">
+								    <iframe style="width:100%; height:400px" src="//www.youtube.com/embed/cuVDgoF7qSM?rel=0" frameborder="0" scrolling="yes" allowfullscreen>
+								    </iframe>
+
+										<p><sub><strong>Landsat satellites images</strong> of the Nauset-Monomoy barrier beach system between from 1984 to 2013 (USGS-NASA).</sub></p>
+								</div>
+
+								<p>As an example, we will simulate the impact of storms on 2D beach profiles, explore the sensitivities of crenulated bay to different wave conditions and use models of longshore transport.</p>
+
 								<hr />
-								<h2>Heading Level 2</h2>
-								<h3>Heading Level 3</h3>
-								<h4>Heading Level 4</h4>
-								<h5>Heading Level 5</h5>
-								<h6>Heading Level 6</h6>
-								<hr />
-								<header>
-									<h2>Heading with a Subtitle</h2>
-									<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-								</header>
-								<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-								<header>
-									<h3>Heading with a Subtitle</h3>
-									<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-								</header>
-								<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-								<header>
-									<h4>Heading with a Subtitle</h4>
-									<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-								</header>
-								<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-
-							<!-- Lists -->
-								<h3>Lists</h3>
-								<div class="row">
-									<div class="6u 12u$(small)">
-
-										<h4>Unordered</h4>
-										<ul>
-											<li>Dolor pulvinar etiam magna etiam.</li>
-											<li>Sagittis adipiscing lorem eleifend.</li>
-											<li>Felis enim feugiat dolore viverra.</li>
-										</ul>
-
-										<h4>Alternate</h4>
-										<ul class="alt">
-											<li>Dolor pulvinar etiam magna etiam.</li>
-											<li>Sagittis adipiscing lorem eleifend.</li>
-											<li>Felis enim feugiat dolore viverra.</li>
-										</ul>
-
-									</div>
-									<div class="6u$ 12u$(small)">
-
-										<h4>Ordered</h4>
-										<ol>
-											<li>Dolor pulvinar etiam magna etiam.</li>
-											<li>Etiam vel felis at lorem sed viverra.</li>
-											<li>Felis enim feugiat dolore viverra.</li>
-											<li>Dolor pulvinar etiam magna etiam.</li>
-											<li>Etiam vel felis at lorem sed viverra.</li>
-											<li>Felis enim feugiat dolore viverra.</li>
-										</ol>
-
-										<h4>Icons</h4>
-										<ul class="icons">
-											<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-											<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-											<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-											<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-											<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-											<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
-										</ul>
-
-									</div>
-								</div>
-								<h4>Definition</h4>
-								<dl>
-									<dt>Item 1</dt>
-									<dd>
-										<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-									</dd>
-									<dt>Item 2</dt>
-									<dd>
-										<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-									</dd>
-									<dt>Item 3</dt>
-									<dd>
-										<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-									</dd>
-								</dl>
-
-								<h4>Actions</h4>
-								<ul class="actions">
-									<li><a href="#" class="button special">Default</a></li>
-									<li><a href="#" class="button">Default</a></li>
-									<li><a href="#" class="button alt">Default</a></li>
+								<ul class="actions fit">
+									<li><a href="#preamble" class="button fit">Preamble</a></li>
+									<li><a href="#lectures" class="button fit">Lectures</a></li>
+									<li><a href="#labs" class="button fit">Labs</a></li>
 								</ul>
-								<ul class="actions small">
-									<li><a href="#" class="button special small">Small</a></li>
-									<li><a href="#" class="button small">Small</a></li>
-									<li><a href="#" class="button alt small">Small</a></li>
-								</ul>
-								<div class="row">
-									<div class="3u 12u$(small)">
-										<ul class="actions vertical">
-											<li><a href="#" class="button special">Default</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt">Default</a></li>
-										</ul>
-									</div>
-									<div class="3u 12u$(small)">
-										<ul class="actions vertical small">
-											<li><a href="#" class="button special small">Small</a></li>
-											<li><a href="#" class="button small">Small</a></li>
-											<li><a href="#" class="button alt small">Small</a></li>
-										</ul>
-									</div>
-									<div class="3u 12u$(small)">
-										<ul class="actions vertical">
-											<li><a href="#" class="button special fit">Default</a></li>
-											<li><a href="#" class="button fit">Default</a></li>
-											<li><a href="#" class="button alt fit">Default</a></li>
-										</ul>
-									</div>
-									<div class="3u$ 12u$(small)">
-										<ul class="actions vertical small">
-											<li><a href="#" class="button special small fit">Small</a></li>
-											<li><a href="#" class="button small fit">Small</a></li>
-											<li><a href="#" class="button alt small fit">Small</a></li>
-										</ul>
-									</div>
+
+								<header>
+									<h4 id="preamble">Preamble</h4>
+								</header>
+
+							  <p>Our understanding of coastal evolution is often based on <strong>physical</strong> and <strong>numerical</strong> hydrodynamic models which are used to simulate the main processes taking place in coastal regions.
+							  <br/>
+							  <strong>Physical models</strong> refer to the use of laboratory models at an appropriate scale ( micro, small, medium and large scale models) for investigating the relevant process.
+							  <br/>
+							  <strong>Numerical models</strong> refer to the use of computer codes (commercial, open source, home-made software).
+							  <br/>
+							  <br/>
+							  Hydrodynamic modelling forms the basis for many other modelling studies, whether sediment transport, morphology, waves, water quality and/or ecological changes are being investigated.
+							  In this module, a general overview is given and describes some examples of physical and numerical modelling approach used to study coastal processes.
+							  </p>
+
+								<header>
+									<h4 id="lectures">Lecture resources</h4>
+								</header>
+
+
+								<strong>Physical Models</strong>
+
+								<div class="col-md-6" style="text-align: center;">
+							    <iframe style="width:100%; height:400px" src="https://www.youtube.com/embed/TQ95CHOUO_I?rel=0" frameborder="0" scrolling="yes" allowfullscreen>
+							    </iframe>
+							  </div>
+
+								<p>Physical models and laboratory experiments remain part and parcel of the research methodology because of their many strong points, such as:
+								</p>
+								<div class="alt">
+									<ul>
+							      <li> <strong>Observability</strong>: experiments to investigate mechanisms that are difficult to observe in nature,</li>
+							  		<li> <strong>Measurability</strong>: experiments to isolate phenomena that are difficult to measure in nature,</li>
+						 				<li> <strong>Repeatability</strong>: repeated experiments, to investigate the range of inherent uncertainty of phenomena,</li>
+						 				<li> <strong>Input control</strong>: experiments with various realistic input time series, to assess the predictive capability of numerical models,</li>
+						 				<li> <strong>Process control</strong>: experiments for simple situations, in order to validate the results of theoretical behaviour analyses,</li>
+						 				<li> <strong>Robustness</strong>: modelling of processes that cannot be modelled numerically, because (unlike numerical models) physical models are basically similar to prototype (especially in facilities that model processes at full scale).</li>
+									</ul>
 								</div>
 
-							<!-- Blockquote -->
-								<h3>Blockquote</h3>
-								<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.</blockquote>
+								<div class="col-md-6" style="text-align: center;">
+							    <iframe style="width:100%; height:400px" src="https://www.youtube.com/embed/RvtBMojxWUQ?rel=0" frameborder="0" scrolling="yes" allowfullscreen>
+							    </iframe>
+							  </div>
+							  <p>
+							  Facilities of various sizes (from large to micro scale) are available for physical modelling of coastal processes. The size of the facility for use depends on the scale and scope of the phenomenon to be modelled.
 
-							<!-- Table -->
-								<h3>Table</h3>
-
-								<h4>Default</h4>
-								<div class="table-wrapper">
-									<table>
-										<thead>
-											<tr>
-												<th>Name</th>
-												<th>Description</th>
-												<th>Price</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Item 1</td>
-												<td>Ante turpis integer aliquet porttitor.</td>
-												<td>29.99</td>
-											</tr>
-											<tr>
-												<td>Item 2</td>
-												<td>Vis ac commodo adipiscing arcu aliquet.</td>
-												<td>19.99</td>
-											</tr>
-											<tr>
-												<td>Item 3</td>
-												<td> Morbi faucibus arcu accumsan lorem.</td>
-												<td>29.99</td>
-											</tr>
-											<tr>
-												<td>Item 4</td>
-												<td>Vitae integer tempus condimentum.</td>
-												<td>19.99</td>
-											</tr>
-											<tr>
-												<td>Item 5</td>
-												<td>Ante turpis integer aliquet porttitor.</td>
-												<td>29.99</td>
-											</tr>
-										</tbody>
-										<tfoot>
-											<tr>
-												<td colspan="2"></td>
-												<td>100.00</td>
-											</tr>
-										</tfoot>
-									</table>
-								</div>
-
-								<h4>Alternate</h4>
+								<strong>Materials for physical modelling:</strong>
+								</p>
 								<div class="table-wrapper">
 									<table class="alt">
-										<thead>
-											<tr>
-												<th>Name</th>
-												<th>Description</th>
-												<th>Price</th>
-											</tr>
-										</thead>
 										<tbody>
 											<tr>
-												<td>Item 1</td>
-												<td>Ante turpis integer aliquet porttitor.</td>
-												<td>29.99</td>
-											</tr>
-											<tr>
-												<td>Item 2</td>
-												<td>Vis ac commodo adipiscing arcu aliquet.</td>
-												<td>19.99</td>
-											</tr>
-											<tr>
-												<td>Item 3</td>
-												<td> Morbi faucibus arcu accumsan lorem.</td>
-												<td>29.99</td>
-											</tr>
-											<tr>
-												<td>Item 4</td>
-												<td>Vitae integer tempus condimentum.</td>
-												<td>19.99</td>
-											</tr>
-											<tr>
-												<td>Item 5</td>
-												<td>Ante turpis integer aliquet porttitor.</td>
-												<td>29.99</td>
+												<td><strong><a href="http://geoslearn.github.io/physicalModel/#" target="_blank">HTML version</a></strong> (for Chrome or Safari)</td>
+												<td><strong><a href="https://cloudstor.aarnet.edu.au/plus/index.php/s/KEz6Kt72sxvZNzc" target="_blank">PDF version</a></strong></td>
 											</tr>
 										</tbody>
-										<tfoot>
-											<tr>
-												<td colspan="2"></td>
-												<td>100.00</td>
-											</tr>
-										</tfoot>
 									</table>
 								</div>
+
+								<strong>Numerical Models</strong>
+
+								<p>
+							  The rapid development of computing technology has furnished a large number of models to be employed in coastal hydrodynamic problems.
+							  <br/>
+							  The numerical technique can be based on the finite element method, finite difference method, boundary element method, finite volume method and Eulerian-Lagrangian method. The time-stepping algorithm can be implicit, semi-implicit, explicit, or characteristic-based.
+							  <br/>
+							  The modelling can be simplified into different spatial dimensions, i.e., a one-dimensional (1D) model, two-dimensional (2D) depth-integrated model, 2D lateral-integrated model, 2D layered model and 3D model.
+							  </p>
+
+								<div class="col-md-6" style="text-align: center;">
+							    <iframe style="width:100%; height:400px" src="https://www.youtube.com/embed/CCmTY0PKGDs?rel=0" frameborder="0" scrolling="yes" allowfullscreen>
+							    </iframe>
+							  </div>
+
+							  <p>
+							  An analysis of coastal hydraulics and water quality often demands the application of heuristics and empirical experience, and is accomplished through some simplifications and modeling techniques according to the experience of specialists. However, the accuracy of the prediction is to a great extent dependent on open boundary conditions, model parameters, and the numerical scheme. The adoption of a proper numerical model for a practical coastal problem is a highly specialized task. These predictive tools inevitably involve certain assumptions and/or limitations, and need to be applied with caution by experienced scientists who possess a comprehensive understanding of the problem domain.
+							  </p>
 
 						</div>
 						<div class="6u$ 12u$(medium)">
 
-							<!-- Buttons -->
-								<h3>Buttons</h3>
-								<ul class="actions">
-									<li><a href="#" class="button special">Special</a></li>
-									<li><a href="#" class="button">Default</a></li>
-									<li><a href="#" class="button alt">Alternate</a></li>
+
+							<strong>Materials for numerical modelling:</strong>
+							</p>
+							<div class="table-wrapper">
+								<table class="alt">
+									<tbody>
+										<tr>
+											<td><strong><a href="http://geoslearn.github.io/numericalModel/#" target="_blank">HTML version</a></strong> (for Chrome or Safari)</td>
+											<td><strong><a href="https://cloudstor.aarnet.edu.au/plus/index.php/s/pefBV4Xx3pEU2QD" target="_blank">PDF version</a></strong></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+
+							<header>
+								<h4 id="labs">For the labs</h4>
+							</header>
+						  <p>We will use <strong><a href="http://jupyter.org" target="_blank">Jupyter</a></strong>,  a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. To access the module materials we will download via Kitematic a  <strong><a href="https://www.docker.com/what-docker" target="_blank">Docker</a></strong> container called <strong>usyd-oceancoasts</strong>. Please follow the documentation provided <strong><a href="{{ site.prefix }}/LabDeploy.html">here</a></strong> on how to install the materials on your local computer or how to use it directly from the school computer labs.<br/>
+						  When the <strong>usyd-oceancoasts</strong> container has been installed via Kitematic and a volume has been attached to the container, you will be ready to start opening the ipython notebooks.
+						  The labs will focus on 2 different numerical models. <br/><br/>
+						  <strong>One-line model</strong><br/>
+						  First we will look at the <strong><a href="https://cove-model.github.io/Website/" target="_blank">COastal Vector Evolution</a></strong> model (COVE) - a vector-based one-line coastal evolution model presented and used in a <strong><a href="http://onlinelibrary.wiley.com/doi/10.1002/2015JF003704/abstract" target="_blank">paper</a></strong> by Hurst et al. (2015). <br/>
+						  The model's highlights include:
+						  </p>
+							<div class="alt">
+								<ul>
+									<li> Application at spatial scales of kms to tens of kms, over decadal to millennial timescales,</li>
+									<li> Coastal change is driven by gradients in wave-generated alongshore sediment transport,</li>
+									<li> Alongshore sediment transport driven by the height and angle of breaking waves,</li>
+									<li> Retreat of cliffs governed by beach interaction (protection vs tools).</li>
 								</ul>
-								<ul class="actions">
-									<li><a href="#" class="button special big">Big</a></li>
-									<li><a href="#" class="button">Default</a></li>
-									<li><a href="#" class="button alt small">Small</a></li>
+							</div>
+
+							<div style="text-align: center;">
+						  <img src="images/cove.png" alt="shallow-water depositional systems" style="width:80%; height:48%" align="middle">
+						  </div>
+							<p>
+						  Following the ideas proposed in Hurst et al. (2015), you will investigate the evolution of crenulate bays and explore coastal behavior and sensitivity under different climatic conditions.<br/><br/>
+							<strong>Nearshore wave propagation model</strong><br/>
+						  Then we will use <strong><a href="http://oss.deltares.nl/web/xbeach/" target="_blank">XBeach</a></strong> model.
+						  XBeach solves coupled 2D horizontal equations for wave propagation, flow, sediment transport and bottom changes, for varying (spectral) wave and flow boundary conditions. It is a public-domain model that has been developed with major funding from the US Army Corps of Engineers, Rijkswaterstaat and the EU, supported by a consortium of UNESCO-IHE, Deltares, Delft University of Technology and the University of Miami. <br/>
+						  XBeach can be used as stand-alone model for small-scale (project-scale) coastal applications, but could also be integrated within more complex coupling frameworks. For example, it could be driven by boundary conditions provided by wind, wave or surge models and its main outputs (time-varying bathymetry and possibly discharges over breached barrier island sections) could be then transferred back.
+						   </p>
+
+							 <div class="col-md-6" style="text-align: center;">
+								 <iframe style="width:100%; height:400px" src="https://www.youtube.com/embed/UgK2OfaNqfM?rel=0" frameborder="0" scrolling="yes" allowfullscreen>
+								 </iframe>
+							 </div>
+
+						   <p>
+						   Because the model takes into account the variation in wave height in time (long known to surfers) it resolves the special long wave motions created by this variation. This so-called <strong>surf beat</strong> is responsible for most of the swash waves that actually hit the dune front or overtop it. <br/> Using this functionality we will explore 2D profiles evolution and XBeach outputs for different initial conditions.
+						  </p>
+
+							<div class="table-wrapper">
+								<table class="alt">
+									<tbody>
+										<tr>
+											<td>Labs <strong><a href="https://github.com/tristan-salles/oceancoast/tree/master/UoS/" target="_blank">materials</a></strong></td>
+											<td>Docker Container <strong><a href="https://hub.docker.com/r/tristansalles/usyd-oceancoasts/" target="_blank">usyd-oceancoasts</a></strong></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+
+							<header>
+								<h4 id="mod">Coastal models repository</h4>
+							</header>
+							<div class="alt">
+								<ul>
+									<li><strong><a href="https://csdms.colorado.edu/wiki/Main_Page" target="_blank">Community Surface Dynamics Modeling System</a></strong> (CSDMS)</li>
 								</ul>
-								<ul class="actions fit">
-									<li><a href="#" class="button special fit">Fit</a></li>
-									<li><a href="#" class="button fit">Fit</a></li>
-									<li><a href="#" class="button alt fit">Fit</a></li>
+							</div>
+
+							<div class="col-md-6">
+								<iframe style="width:100%; height:500px" src="https://csdms.colorado.edu/wiki/Main_Page" frameborder="0" scrolling="yes" allowfullscreen>
+								</iframe>
+							</div>
+							<br />
+							<div class="alt">
+								<ul>
+									<li><strong><a href="http://www.coastalhazards.org" target="_blank">Coastal Hazards Research Collaboratory</a></strong> (CHARCOL)</li>
 								</ul>
-								<ul class="actions fit small">
-									<li><a href="#" class="button special fit small">Fit + Small</a></li>
-									<li><a href="#" class="button fit small">Fit + Small</a></li>
-									<li><a href="#" class="button alt fit small">Fit + Small</a></li>
-								</ul>
-								<ul class="actions">
-									<li><a href="#" class="button special icon fa-search">Icon</a></li>
-									<li><a href="#" class="button icon fa-download">Icon</a></li>
-									<li><a href="#" class="button alt icon fa-check">Icon</a></li>
-								</ul>
-								<ul class="actions">
-									<li><span class="button special disabled">Special</span></li>
-									<li><span class="button disabled">Default</span></li>
-									<li><span class="button alt disabled">Alternate</span></li>
-								</ul>
+							</div>
 
-							<!-- Form -->
-								<h3>Form</h3>
-
-								<form method="post" action="#">
-									<div class="row uniform">
-										<div class="6u 12u$(xsmall)">
-											<input type="text" name="name" id="name" value="" placeholder="Name" />
-										</div>
-										<div class="6u$ 12u$(xsmall)">
-											<input type="email" name="email" id="email" value="" placeholder="Email" />
-										</div>
-										<!-- Break -->
-										<div class="12u$">
-											<div class="select-wrapper">
-												<select name="category" id="category">
-													<option value="">- Category -</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-										</div>
-										<!-- Break -->
-										<div class="4u 12u$(small)">
-											<input type="radio" id="priority-low" name="priority" checked>
-											<label for="priority-low">Low Priority</label>
-										</div>
-										<div class="4u 12u$(small)">
-											<input type="radio" id="priority-normal" name="priority">
-											<label for="priority-normal">Normal Priority</label>
-										</div>
-										<div class="4u$ 12u$(small)">
-											<input type="radio" id="priority-high" name="priority">
-											<label for="priority-high">High Priority</label>
-										</div>
-										<!-- Break -->
-										<div class="6u 12u$(small)">
-											<input type="checkbox" id="copy" name="copy">
-											<label for="copy">Email me a copy of this message</label>
-										</div>
-										<div class="6u$ 12u$(small)">
-											<input type="checkbox" id="human" name="human" checked>
-											<label for="human">I am a human and not a robot</label>
-										</div>
-										<!-- Break -->
-										<div class="12u$">
-											<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
-										</div>
-										<!-- Break -->
-										<div class="12u$">
-											<ul class="actions">
-												<li><input type="submit" value="Send Message" /></li>
-												<li><input type="reset" value="Reset" class="alt" /></li>
-											</ul>
-										</div>
-									</div>
-								</form>
-
-								<hr />
-
-								<form method="post" action="#">
-									<div class="row uniform">
-										<div class="9u 12u$(small)">
-											<input type="text" name="query" id="query" value="" placeholder="Query" />
-										</div>
-										<div class="3u$ 12u$(small)">
-											<input type="submit" value="Search" class="fit" />
-										</div>
-									</div>
-								</form>
-
-							<!-- Image -->
-								<h3>Image</h3>
-
-								<h4>Fit</h4>
-								<span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
-								<div class="box alt">
-									<div class="row 50% uniform">
-										<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-										<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-										<div class="4u$"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-										<!-- Break -->
-										<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-										<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-										<div class="4u$"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-										<!-- Break -->
-										<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-										<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-										<div class="4u$"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-									</div>
-								</div>
-
-								<h4>Left &amp; Right</h4>
-								<p><span class="image left"><img src="images/pic02.jpg" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis volutpat lorem ipsum dolor sit amet dolor consequat.</p>
-								<p><span class="image right"><img src="images/pic02.jpg" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis volutpat lorem ipsum dolor sit amet dolor consequat.</p>
-
-							<!-- Box -->
-								<h3>Box</h3>
-								<div class="box">
-									<p>Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Magna sed etiam ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus lorem ipsum dolor sit amet nullam.</p>
-								</div>
-
-							<!-- Preformatted Code -->
-								<h3>Preformatted</h3>
-								<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';
-</code></pre>
+							<div class="col-md-6">
+								<iframe style="width:100%; height:500px" src="http://www.coastalhazards.org/index.html" frameborder="0" scrolling="yes" allowfullscreen>
+								</iframe>
+							</div>
 
 						</div>
 					</div>
