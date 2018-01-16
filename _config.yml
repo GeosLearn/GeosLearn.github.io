@@ -1,5 +1,5 @@
 name: GeosLearn
 description: Test Tristan Salles
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 paginate: 10

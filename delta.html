@@ -47,397 +47,137 @@
 			<div id="main" class="container">
 
 				<!-- Elements -->
-					<h2 id="elements">Elements</h2>
 					<div class="row 200%">
 						<div class="6u 12u$(medium)">
 
-							<!-- Text stuff -->
-								<h3>Text</h3>
-								<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-								This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-								This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>.
-								Finally, this is a <a href="#">link</a>.</p>
-								<hr />
-								<h2>Heading Level 2</h2>
-								<h3>Heading Level 3</h3>
-								<h4>Heading Level 4</h4>
-								<h5>Heading Level 5</h5>
-								<h6>Heading Level 6</h6>
-								<hr />
-								<header>
-									<h2>Heading with a Subtitle</h2>
-									<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-								</header>
-								<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-								<header>
-									<h3>Heading with a Subtitle</h3>
-									<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-								</header>
-								<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-								<header>
-									<h4>Heading with a Subtitle</h4>
-									<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-								</header>
-								<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+							<div class="col-md-6" style="text-align: center;">
+						    <iframe style="width:80%; height:400px" src="//www.youtube.com/embed/W6OzezihmUw?rel=0" frameborder="0" scrolling="yes" allowfullscreen>
+						    </iframe>
 
-							<!-- Lists -->
-								<h3>Lists</h3>
-								<div class="row">
-									<div class="6u 12u$(small)">
+								<p><sub><strong>Landsat satellites images</strong> of the Wax Lake Outlet and Atchafalaya deltas from 1984 to 2014 <a href="https://earthobservatory.nasa.gov/IOTD/view.php?id=85261" target="_blank">EarthObservatory</a> (USGS-NASA).</sub></p>
+						  </div>
 
-										<h4>Unordered</h4>
-										<ul>
-											<li>Dolor pulvinar etiam magna etiam.</li>
-											<li>Sagittis adipiscing lorem eleifend.</li>
-											<li>Felis enim feugiat dolore viverra.</li>
-										</ul>
+							<blockquote> Deltaic depositional facies result from interacting dynamics processes (wave energy, tidal regime, currents, climate, tectonic), which
+							modify and disperse fluvial clastic deposits. The complexity of environmental settings under which deltas exist results in a variety of vertical
+							sequences that can form within the delta facies.
+							</blockquote>
+							<p>
+						  In this module, you will learn how to interpret deltaic stratigraphy based on <strong>systems tract</strong>, <strong>shoreline trajectory</strong> and <strong>accommodation vs sediment supply</strong> analysis. Using <strong><a href="https://github.com/badlands-model/pyBadlands/wiki" target="_blank">Badlands</a></strong>, you will
+						  quantitatively assess the role of sea-level fluctuations and subsidence rates on deltaic geometry evolution.
+						  </p>
+							<hr />
+							<ul class="actions fit">
+								<li><a href="#preamble" class="button fit">Preamble</a></li>
+								<li><a href="#lectures" class="button fit">Lectures</a></li>
+								<li><a href="#labs" class="button fit">Labs</a></li>
+							</ul>
 
-										<h4>Alternate</h4>
-										<ul class="alt">
-											<li>Dolor pulvinar etiam magna etiam.</li>
-											<li>Sagittis adipiscing lorem eleifend.</li>
-											<li>Felis enim feugiat dolore viverra.</li>
-										</ul>
+							<header>
+								<h4 id="preamble">Preamble</h4>
+							</header>
 
-									</div>
-									<div class="6u$ 12u$(small)">
+							<p>
+						  Deltas are constructional coastal landforms with both subaerial and subaqueous components that are genetically associated with rivers discharging into a standing body of water, such as a lake, estuary, lagoon, sea, or the open-ocean shelf. A delta is usually built by a single river. Reworking of sediments accumulated at the river mouth by basinal processes (e.g., waves, tides, currents) should be slow enough to allow delta building to proceed. The river is the main source for sediment delivered to the delta, although in some wave-dominated settings, a significant portion may be transported by wave-driven currents from remote sources
+						  </p>
 
-										<h4>Ordered</h4>
-										<ol>
-											<li>Dolor pulvinar etiam magna etiam.</li>
-											<li>Etiam vel felis at lorem sed viverra.</li>
-											<li>Felis enim feugiat dolore viverra.</li>
-											<li>Dolor pulvinar etiam magna etiam.</li>
-											<li>Etiam vel felis at lorem sed viverra.</li>
-											<li>Felis enim feugiat dolore viverra.</li>
-										</ol>
+						  <div style="text-align: center;">
+						  <img src="images/delta.png" alt="shallow-water depositional systems" style="width:80%; height:48%" align="middle">
+						  <p><sub>Range of common shallow-water depositional systems in a coastal classification based on ratio of wave power to tidal power (from
+						    <strong><a href="  https://www.researchgate.net/publication/260083189_Major_Advances_in_siliciclastic_sedimentary_geology_1960-2012_Geological_Society_of_America_Special_Paper_500_2013" target="_blank">Steel & Milliken 2013</a></strong>)</sub></p>
+						  </div>
 
-										<h4>Icons</h4>
-										<ul class="icons">
-											<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-											<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-											<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-											<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-											<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-											<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
-										</ul>
+							<header>
+								<h4 id="lectures">Lecture resources</h4>
+							</header>
+							<strong>Overview of deltaic systems and classification</strong>
+							<p>Deltas are amongst the most environmentally and economically important coastal sedimentary environments. Significant oil, gas, and groundwater resources have been exploited from deltaic formations. Historically, modern deltas have been prized by human civilizations for their high natural and agricultural productivity, rich biodiversity, and for the abundance of waterways that provide easy means of transportation. Deltas are ubiquitous: 21 of the world’s 25 largest rivers, which deliver 31% of total fluvial sediment reaching the ocean, have formed well-expressed deltas at the coast (Meade, 1996). As a result, ~ 25% of the world’s population lives within deltaic and wetland coastal systems (Syvitski et al., 2005)</p>
+						  <div class="col-md-6" style="text-align: center;">
+						    <iframe style="width:80%; height:400px" src="//www.youtube.com/embed/A47ythEcz74?rel=0" frameborder="0" scrolling="yes" allowfullscreen>
+						    </iframe>
+						  </div>
+							<p>
+						  In the 1980s, research on deltas moved from the development of depositional models based on modern highstand deltas, which are ultimately controlled by variations in sediment supply by the delta-building rivers, to sequence stratigraphic interpretations of deltaic evolution through multiple sea-level cycles (e.g., Van Wagoner et al., 1988).<br/>
+						  Based on general morphology of the subaerial delta plain, deltas have typically been classified as fluvial-, wave-, or tide-dominated according to the dominant processes affecting sediment delivery, deposition, and dispersal (Galloway, 1975; Orton and Reading, 1993).<br/>
+						  Some notes on <strong><a href="https://www.whoi.edu/science/GG/coastal/publications/pdfs/Giosan&Goodbred_DeltEnv_REVISED.pdf" target="_blank">Deltaic Environments</a></strong> and lecture materials are available below:
+						  </p>
 
-									</div>
-								</div>
-								<h4>Definition</h4>
-								<dl>
-									<dt>Item 1</dt>
-									<dd>
-										<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-									</dd>
-									<dt>Item 2</dt>
-									<dd>
-										<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-									</dd>
-									<dt>Item 3</dt>
-									<dd>
-										<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-									</dd>
-								</dl>
-
-								<h4>Actions</h4>
-								<ul class="actions">
-									<li><a href="#" class="button special">Default</a></li>
-									<li><a href="#" class="button">Default</a></li>
-									<li><a href="#" class="button alt">Default</a></li>
-								</ul>
-								<ul class="actions small">
-									<li><a href="#" class="button special small">Small</a></li>
-									<li><a href="#" class="button small">Small</a></li>
-									<li><a href="#" class="button alt small">Small</a></li>
-								</ul>
-								<div class="row">
-									<div class="3u 12u$(small)">
-										<ul class="actions vertical">
-											<li><a href="#" class="button special">Default</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt">Default</a></li>
-										</ul>
-									</div>
-									<div class="3u 12u$(small)">
-										<ul class="actions vertical small">
-											<li><a href="#" class="button special small">Small</a></li>
-											<li><a href="#" class="button small">Small</a></li>
-											<li><a href="#" class="button alt small">Small</a></li>
-										</ul>
-									</div>
-									<div class="3u 12u$(small)">
-										<ul class="actions vertical">
-											<li><a href="#" class="button special fit">Default</a></li>
-											<li><a href="#" class="button fit">Default</a></li>
-											<li><a href="#" class="button alt fit">Default</a></li>
-										</ul>
-									</div>
-									<div class="3u$ 12u$(small)">
-										<ul class="actions vertical small">
-											<li><a href="#" class="button special small fit">Small</a></li>
-											<li><a href="#" class="button small fit">Small</a></li>
-											<li><a href="#" class="button alt small fit">Small</a></li>
-										</ul>
-									</div>
-								</div>
-
-							<!-- Blockquote -->
-								<h3>Blockquote</h3>
-								<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.</blockquote>
-
-							<!-- Table -->
-								<h3>Table</h3>
-
-								<h4>Default</h4>
-								<div class="table-wrapper">
-									<table>
-										<thead>
-											<tr>
-												<th>Name</th>
-												<th>Description</th>
-												<th>Price</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Item 1</td>
-												<td>Ante turpis integer aliquet porttitor.</td>
-												<td>29.99</td>
-											</tr>
-											<tr>
-												<td>Item 2</td>
-												<td>Vis ac commodo adipiscing arcu aliquet.</td>
-												<td>19.99</td>
-											</tr>
-											<tr>
-												<td>Item 3</td>
-												<td> Morbi faucibus arcu accumsan lorem.</td>
-												<td>29.99</td>
-											</tr>
-											<tr>
-												<td>Item 4</td>
-												<td>Vitae integer tempus condimentum.</td>
-												<td>19.99</td>
-											</tr>
-											<tr>
-												<td>Item 5</td>
-												<td>Ante turpis integer aliquet porttitor.</td>
-												<td>29.99</td>
-											</tr>
-										</tbody>
-										<tfoot>
-											<tr>
-												<td colspan="2"></td>
-												<td>100.00</td>
-											</tr>
-										</tfoot>
-									</table>
-								</div>
-
-								<h4>Alternate</h4>
 								<div class="table-wrapper">
 									<table class="alt">
-										<thead>
-											<tr>
-												<th>Name</th>
-												<th>Description</th>
-												<th>Price</th>
-											</tr>
-										</thead>
 										<tbody>
 											<tr>
-												<td>Item 1</td>
-												<td>Ante turpis integer aliquet porttitor.</td>
-												<td>29.99</td>
-											</tr>
-											<tr>
-												<td>Item 2</td>
-												<td>Vis ac commodo adipiscing arcu aliquet.</td>
-												<td>19.99</td>
-											</tr>
-											<tr>
-												<td>Item 3</td>
-												<td> Morbi faucibus arcu accumsan lorem.</td>
-												<td>29.99</td>
-											</tr>
-											<tr>
-												<td>Item 4</td>
-												<td>Vitae integer tempus condimentum.</td>
-												<td>19.99</td>
-											</tr>
-											<tr>
-												<td>Item 5</td>
-												<td>Ante turpis integer aliquet porttitor.</td>
-												<td>29.99</td>
+												<td><strong><a href="http://geoslearn.github.io/DeltaStrat/#" target="_blank">HTML version</a></strong> (for Chrome or Safari)</td>
+												<td><strong><a href="https://cloudstor.aarnet.edu.au/plus/index.php/s/WiYlW5OQ4I9fc67" target="_blank">PDF version</a></strong></td>
 											</tr>
 										</tbody>
-										<tfoot>
-											<tr>
-												<td colspan="2"></td>
-												<td>100.00</td>
-											</tr>
-										</tfoot>
 									</table>
 								</div>
 
 						</div>
 						<div class="6u$ 12u$(medium)">
 
-							<!-- Buttons -->
-								<h3>Buttons</h3>
-								<ul class="actions">
-									<li><a href="#" class="button special">Special</a></li>
-									<li><a href="#" class="button">Default</a></li>
-									<li><a href="#" class="button alt">Alternate</a></li>
-								</ul>
-								<ul class="actions">
-									<li><a href="#" class="button special big">Big</a></li>
-									<li><a href="#" class="button">Default</a></li>
-									<li><a href="#" class="button alt small">Small</a></li>
-								</ul>
-								<ul class="actions fit">
-									<li><a href="#" class="button special fit">Fit</a></li>
-									<li><a href="#" class="button fit">Fit</a></li>
-									<li><a href="#" class="button alt fit">Fit</a></li>
-								</ul>
-								<ul class="actions fit small">
-									<li><a href="#" class="button special fit small">Fit + Small</a></li>
-									<li><a href="#" class="button fit small">Fit + Small</a></li>
-									<li><a href="#" class="button alt fit small">Fit + Small</a></li>
-								</ul>
-								<ul class="actions">
-									<li><a href="#" class="button special icon fa-search">Icon</a></li>
-									<li><a href="#" class="button icon fa-download">Icon</a></li>
-									<li><a href="#" class="button alt icon fa-check">Icon</a></li>
-								</ul>
-								<ul class="actions">
-									<li><span class="button special disabled">Special</span></li>
-									<li><span class="button disabled">Default</span></li>
-									<li><span class="button alt disabled">Alternate</span></li>
-								</ul>
+							<strong>Quantitative analysis of deltaic stratigraphy</strong>
+							<p>The stratigraphic architecture of deltas is the end-result of complex interactions among upstream catchment processes that regulate the location and magnitude of the fluvial sediment discharge, and downstream basinal controls that include the shape and quantity of accommodation space for sediment accumulation and the type and energy of coastal processes that redistribute these sediments. Together, all of these controls determine the mode and degree of partitioning of sediment between the delta and the wider receiving basin.</p>
 
-							<!-- Form -->
-								<h3>Form</h3>
+							<hr />
+							<span class="image fit"><img src="images/str1.png" alt="" /></span>
+							<span class="image fit"><img src="images/str2.jpg" alt="" /></span>
+							<span class="image fit"><img src="images/str3.jpg" alt="" /></span>
 
-								<form method="post" action="#">
-									<div class="row uniform">
-										<div class="6u 12u$(xsmall)">
-											<input type="text" name="name" id="name" value="" placeholder="Name" />
-										</div>
-										<div class="6u$ 12u$(xsmall)">
-											<input type="email" name="email" id="email" value="" placeholder="Email" />
-										</div>
-										<!-- Break -->
-										<div class="12u$">
-											<div class="select-wrapper">
-												<select name="category" id="category">
-													<option value="">- Category -</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-										</div>
-										<!-- Break -->
-										<div class="4u 12u$(small)">
-											<input type="radio" id="priority-low" name="priority" checked>
-											<label for="priority-low">Low Priority</label>
-										</div>
-										<div class="4u 12u$(small)">
-											<input type="radio" id="priority-normal" name="priority">
-											<label for="priority-normal">Normal Priority</label>
-										</div>
-										<div class="4u$ 12u$(small)">
-											<input type="radio" id="priority-high" name="priority">
-											<label for="priority-high">High Priority</label>
-										</div>
-										<!-- Break -->
-										<div class="6u 12u$(small)">
-											<input type="checkbox" id="copy" name="copy">
-											<label for="copy">Email me a copy of this message</label>
-										</div>
-										<div class="6u$ 12u$(small)">
-											<input type="checkbox" id="human" name="human" checked>
-											<label for="human">I am a human and not a robot</label>
-										</div>
-										<!-- Break -->
-										<div class="12u$">
-											<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
-										</div>
-										<!-- Break -->
-										<div class="12u$">
-											<ul class="actions">
-												<li><input type="submit" value="Send Message" /></li>
-												<li><input type="reset" value="Reset" class="alt" /></li>
-											</ul>
-										</div>
-									</div>
-								</form>
+							<div style="text-align: center;">
 
-								<hr />
+							<p><strong>Sequence stratigraphy analysis</strong> obtained with Badlands model.</p>
+							</div>
+							<p>
+							The concepts of system tracts, shoreline trajectory and accommodation succession represent critical tools to the interpretation of shoreline and shelf carbonate and clastic sedimentary systems. It aids in the determination of the depositional setting of the component <strong>system tracts</strong> and enables the prediction of the extent and character of these sedimentary geometries, often at the same scale as the components of local hydrocarbon reservoirs. This enhances the stratigraphers ability to find, map and exploit hydrocarbon reservoirs more effectively. <br/>
+							</p>
+							<hr />
+							<p>
+						  The <strong>shoreline or shelf margin trajectory</strong> is the path taken by the shoreline or shallow shelf margin facies as they change position when a sedimentary basin fills. These trajectories are controlled by rates of change in base level (as expressed by rates of change in accommodation, or the sum of eustatic change and tectonic movement of the substrate), varying rates of sediment accumulation, and the slope and shape of the basin margin and floor and their depths. Evolving geometries of clinoformed margins have been used as standards to explain basin margin progradation. Essentially these trajectories are responsible for the retrogradational, progradational and aggradational stacking patterns.
+						  <br/>
+						  The <strong>rate of change of accommodation</strong> (at the shoreline) and the <strong>rate of sediment supply</strong> are the primary factors controlling regression and transgression in the geological record, or retreat and advance of a coastal depositional system. We will discuss in this part of the module these three different concepts and see how they can be used to <strong>quantitatively assess numerical models of deltaic systems evolution</strong>.
+						  </p>
 
-								<form method="post" action="#">
-									<div class="row uniform">
-										<div class="9u 12u$(small)">
-											<input type="text" name="query" id="query" value="" placeholder="Query" />
-										</div>
-										<div class="3u$ 12u$(small)">
-											<input type="submit" value="Search" class="fit" />
-										</div>
-									</div>
-								</form>
+							<div class="table-wrapper">
+								<table class="alt">
+									<tbody>
+										<tr>
+											<td><strong><a href="http://geoslearn.github.io/DeltaMod/#" target="_blank">Part 1 HTML version</a></strong> (for Chrome or Safari)</td>
+											<td><strong><a href="https://cloudstor.aarnet.edu.au/plus/index.php/s/XzVAf2SHkCciSxM" target="_blank">PDF version</a></strong></td>
+										</tr>
+										<tr>
+											<td><strong><a href="http://geoslearn.github.io/DeltaMod2/#" target="_blank">Part 2 HTML version</a></strong> (for Chrome or Safari)</td>
+											<td><strong><a href="https://cloudstor.aarnet.edu.au/plus/index.php/s/XzVAf2SHkCciSxM" target="_blank">PDF version</a></strong></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
 
-							<!-- Image -->
-								<h3>Image</h3>
+							<header>
+								<h4 id="labs">For the labs</h4>
+							</header>
 
-								<h4>Fit</h4>
-								<span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
-								<div class="box alt">
-									<div class="row 50% uniform">
-										<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-										<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-										<div class="4u$"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-										<!-- Break -->
-										<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-										<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-										<div class="4u$"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-										<!-- Break -->
-										<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-										<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-										<div class="4u$"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-									</div>
-								</div>
-
-								<h4>Left &amp; Right</h4>
-								<p><span class="image left"><img src="images/pic02.jpg" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis volutpat lorem ipsum dolor sit amet dolor consequat.</p>
-								<p><span class="image right"><img src="images/pic02.jpg" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis volutpat lorem ipsum dolor sit amet dolor consequat.</p>
-
-							<!-- Box -->
-								<h3>Box</h3>
-								<div class="box">
-									<p>Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Magna sed etiam ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus lorem ipsum dolor sit amet nullam.</p>
-								</div>
-
-							<!-- Preformatted Code -->
-								<h3>Preformatted</h3>
-								<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';
-</code></pre>
-
+							<p>We will use <strong><a href="http://jupyter.org" target="_blank">Jupyter</a></strong>,  a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. To access the module materials we will download via Kitematic a  <strong><a href="https://www.docker.com/what-docker" target="_blank">Docker</a></strong> container called <strong>todo</strong>. Please follow the documentation provided <strong><a href="{{ site.prefix }}/LabDeploy.html">here</a></strong> on how to install the materials on your local computer or directly from the school computer labs.<br/>
+						  </p>
+						  <div class="col-md-6" style="text-align: center;">
+						    <iframe style="width:80%; height:420px" src="//www.youtube.com/embed/nX0EDM2-oTc?rel=0" frameborder="0" scrolling="yes" allowfullscreen>
+						    </iframe>
+						  </div>
 						</div>
 					</div>
 
 			</div>
+			<hr />
 
+<!--iframe width="560" height="315" src="https://www.youtube.com/embed/ughhLPHpm4U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe-->
+
+			<div class="col-md-6" style="text-align: center;">
+				<iframe style="width:1000px; height:630px" src="//www.youtube.com/embed/ughhLPHpm4U?rel=0" frameborder="0" scrolling="yes" allowfullscreen>
+				</iframe>
+			</div>
+
+			<div class="col-md-6" style="text-align: center;">
+			<img src="images/strat.jpg" alt="shoreline trajectory" style="width:50%; height:48%" align="middle">
+		  </div>
 
 		<!-- Footer -->
 			<footer id="footer">
